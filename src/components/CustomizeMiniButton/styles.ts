@@ -14,7 +14,9 @@ export const CustomizeButton = styled.button`
   font-style: normal;
   font-weight: 600;
   line-height: 130%;
- transition:all .3s ease-in-out;
+  padding:0.75rem 2rem;
+  cursor: pointer;
+  transition:all .3s ease-in-out;
 
   &:hover{
     border: 2px solid ${(props) => props.theme["red-400"]};
