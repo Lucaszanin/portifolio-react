@@ -22,14 +22,16 @@ export const MainSection = () => {
           align="start"
           textcolor="red"
           weight="bold"
+          animation
         />{" "}
         <S.CableWrapper>
-          <img src={CableLed} alt="" style={{ height: "274px" }}/>
+          <img src={CableLed} alt="" style={{ height: "274px" }} />
           <img src={Socials} alt="" style={{ height: "124px" }} />
-          <img src={CableLed2} alt="" style={{ height: "124px" }}/>
+          <img src={CableLed2} alt="" style={{ height: "124px" }} />
         </S.CableWrapper>
-        <CustomizeText text={C.firstParagraph}></CustomizeText>
-        <CustomizeText text={C.secondParagraph}></CustomizeText>
+        <CustomizeText text={C.firstParagraph} />
+        <CustomizeText text="Sou apaixonado" highlightColor="true" />
+        <CustomizeText text={C.secondParagraph} />
       </S.LeftContent>
       <S.ImagWrapper>
         <img src={CircleBackground} alt="" />

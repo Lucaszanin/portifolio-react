@@ -9,7 +9,8 @@ const TEXT_PROPS = {
 
 type TextColorProps = {
   textcolor: keyof typeof TEXT_PROPS;
-  weight:keyof typeof TEXT_PROPS
+  weight: keyof typeof TEXT_PROPS;
+  animation?: boolean;
 };
 
 export const Title = styled.h1<TextColorProps>`
@@ -17,8 +18,37 @@ export const Title = styled.h1<TextColorProps>`
   font-family: "Nunito", sans-serif;
   font-size: 48px;
   font-style: normal;
-  font-weight:${(props) =>props.weight};
+  padding-right: 5px;
+  font-weight: ${(props) => props.weight};
   line-height: 130%;
+  @keyframes write {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  @keyframes blink {
+    0%,
+    50% {
+      border-color: transparent;
+    }
+    51%,
+    100% {
+      border-color: ${(props) => props.theme["gray-300"]};
+    }
+  }
+  overflow: hidden;
+  white-space: nowrap;
+  ${(props) =>
+    props.animation &&
+    `
+    animation: write 4s steps(40) forwards, blink 1s infinite;
+    padding-right:5px;
+    border-right: 2px solid ${props.theme["gray-700"]};
+    `};
+
   color: ${(props) => props.theme[TEXT_PROPS[props.textcolor]]};
 `;
 
