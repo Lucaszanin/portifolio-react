@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import { BooksIcon } from "../../assets/Books";
 import { HomeIcon } from "../../assets/HomeIcon";
 import { SkillsIcon } from "../../assets/SkiilsIcon";
@@ -14,16 +15,16 @@ export const Header = () => {
       </S.LogoWrapper>
       <S.NavigationWrapper>
         <S.MenuList>
-          <a href="">
+          <NavLink to='/'>
             <S.ListItemMenu>
               <HomeIcon />
             </S.ListItemMenu>
-          </a>
-          <a href="">
+          </NavLink>
+          <NavLink to='/about'>
             <S.ListItemMenu>
               <BooksIcon />
             </S.ListItemMenu>
-          </a>
+          </NavLink>
           <a href="">
             <S.ListItemMenu>
               <SkillsIcon />

@@ -11,6 +11,12 @@ export const MainSection = () => {
   return (
     <S.MainContainer>
       <S.LeftContent>
+      <CustomizeTitle
+          text="Olá"
+          align="start"
+          textcolor="gray"
+          weight="regular"
+        />
         <CustomizeTitle
           text="Eu Sou"
           align="start"
@@ -23,18 +29,19 @@ export const MainSection = () => {
           textcolor="red"
           weight="bold"
           animation
-        />{" "}
+        />
+        <div style={{margin:'30px 0'}}></div>
         <S.CableWrapper>
           <img src={CableLed} alt="" style={{ height: "274px" }} />
           <img src={Socials} alt="" style={{ height: "124px" }} />
           <img src={CableLed2} alt="" style={{ height: "124px" }} />
         </S.CableWrapper>
         <CustomizeText text={C.firstParagraph} />
-        <CustomizeText text="Sou apaixonado" highlightColor="true" />
+        <div style={{margin:'10px 0'}}></div>
         <CustomizeText text={C.secondParagraph} />
       </S.LeftContent>
       <S.ImagWrapper>
-        <img src={CircleBackground} alt="" />
+        <img src={CircleBackground} alt="" style={{height:'90vh'}}/>
       </S.ImagWrapper>
     </S.MainContainer>
   );

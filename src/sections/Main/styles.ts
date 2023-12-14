@@ -4,8 +4,9 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 150px 0 0 160px;
+  padding: 70px 0 0 160px;
   position: relative;
+  height: 80vh;
 `;
 
 export const LeftContent = styled.div`

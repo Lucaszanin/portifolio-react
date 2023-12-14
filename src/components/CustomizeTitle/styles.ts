@@ -65,4 +65,5 @@ export const TitleContainer = styled.div<TextContainerProps>`
   display: flex;
   justify-content: ${(props) => props.align};
   align-items: center;
+
 `;
