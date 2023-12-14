@@ -9,7 +9,7 @@ import * as S from "./styles";
 
 export const MainSection = () => {
   return (
-    <S.MainContainer>
+    <S.MainContainer id="home">
       <S.LeftContent>
       <CustomizeTitle
           text="Olá"
@@ -28,7 +28,7 @@ export const MainSection = () => {
           align="start"
           textcolor="red"
           weight="bold"
-          animation
+          animation={true.toString()}
         />
         <div style={{margin:'30px 0'}}></div>
         <S.CableWrapper>
