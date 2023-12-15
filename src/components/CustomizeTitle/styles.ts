@@ -10,7 +10,7 @@ const TEXT_PROPS = {
 type TextColorProps = {
   textcolor: keyof typeof TEXT_PROPS;
   weight: keyof typeof TEXT_PROPS;
-  animation?: boolean;
+  animation?: boolean | string;
 };
 
 export const Title = styled.h1<TextColorProps>`
