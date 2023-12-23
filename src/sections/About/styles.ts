@@ -7,7 +7,6 @@ export const MainContainer = styled.div`
   justify-content: space-between;
   padding: 150px;
   position: relative;
-  height:100vh;
 `;
 
 export const LeftContent = styled.div`
@@ -32,7 +31,7 @@ export const ImagWrapper2 = styled.div`
   justify-content: center;
   flex-shrink: 0;
   border-radius: 380px;
-  
+
   padding: 5px;
   background-color: ${(props) => props.theme["gray-800"]};
 `;
@@ -52,7 +51,7 @@ export const CableWrapper = styled.div`
   position: absolute;
   top: 21vh;
   display: flex;
-  right: 21vw;
+  right: calc(700px - 20vw);
   align-items: baseline;
   flex-direction: column;
   flex: 1;
