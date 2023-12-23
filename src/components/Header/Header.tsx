@@ -26,12 +26,12 @@ export const Header = () => {
           </S.LinkMenu>
           <S.LinkMenu href="#suitcase">
             <S.ListItemMenu>
-              <SkillsIcon />
+              <SuitCaseIcon />
             </S.ListItemMenu>
           </S.LinkMenu>
           <a href="">
             <S.ListItemMenu>
-              <SuitCaseIcon />
+              <SkillsIcon />
             </S.ListItemMenu>
           </a>
         </S.MenuList>

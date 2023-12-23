@@ -20,7 +20,7 @@ export const ImageWrapper = styled.div`
   display: flex;
   & img {
     margin-bottom: -3vh;
-    margin-left: 2rem;
+    margin-left:100%;
   }
 `;
 
