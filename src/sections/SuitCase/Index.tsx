@@ -1,16 +1,16 @@
-import { CustomizeTitle } from "../../components/CustomizeTitle";
-import prismaled from "../../assets/prisma-led.svg";
-import cablework from "../../assets/cable-work-experience.svg";
-import * as S from "./styles";
-import { WorkInformations } from "./components/WorkInformations/Index";
+import { CustomizeTitle } from '../../components/CustomizeTitle'
+import prismaled from '../../assets/prisma-led.svg'
+import cablework from '../../assets/cable-work-experience.svg'
+import * as S from './styles'
+import { WorkInformations } from './components/WorkInformations/Index'
 
 export const SuitCaseSection = () => {
   return (
     <div
       style={{
-        display: "flex",
-        alignItems: "flex-start",
-        justifyContent: "space-between",
+        display: 'flex',
+        alignItems: 'flex-start',
+        justifyContent: 'space-between',
       }}
     >
       <S.Container id="suitcase">
@@ -28,10 +28,10 @@ export const SuitCaseSection = () => {
         <S.LeftContent>
           <WorkInformations />
         </S.LeftContent>
-      </S.Container>{" "}
+      </S.Container>{' '}
       <div>
         <img src={prismaled} alt="" />
       </div>
     </div>
-  );
-};
+  )
+}

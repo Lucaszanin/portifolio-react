@@ -24,5 +24,5 @@ export const SkillsIcon = () => {
         fill="#666666"
       />
     </svg>
-  );
-};
+  )
+}

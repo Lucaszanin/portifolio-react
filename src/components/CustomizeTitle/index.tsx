@@ -1,5 +1,5 @@
-import * as S from "./styles";
-import type * as T from "./types";
+import * as S from './styles'
+import type * as T from './types'
 
 export const CustomizeTitle = ({
   text,
@@ -14,5 +14,5 @@ export const CustomizeTitle = ({
         {text}
       </S.Title>
     </S.TitleContainer>
-  );
-};
+  )
+}

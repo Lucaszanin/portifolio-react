@@ -1,15 +1,15 @@
-import { useState } from "react";
-import * as S from "./styles";
-import * as C from "./constants";
-import { CustomizeText } from "../../../../components/CustomizeText/Index";
+import { useState } from 'react'
+import * as S from './styles'
+import * as C from './constants'
+import { CustomizeText } from '../../../../components/CustomizeText/Index'
 
 export const SideBarMenu = () => {
-  const [isActive, setActive] = useState(true);
+  const [isActive, setActive] = useState(true)
 
   const handleClickActive = () => {
-    setActive(!isActive);
-    console.log(isActive);
-  };
+    setActive(!isActive)
+    console.log(isActive)
+  }
 
   return (
     <S.Container>
@@ -67,5 +67,5 @@ export const SideBarMenu = () => {
         </div>
       )}
     </S.Container>
-  );
-};
+  )
+}

@@ -1,3 +1,3 @@
-export type CustomizeMiniButtonProps ={
-    text:string
+export type CustomizeMiniButtonProps = {
+  text: string
 }

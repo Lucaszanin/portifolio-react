@@ -22,9 +22,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body,input,textarea,button,h1,h2,span,p{
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Nunito', sans-serif;
         font-weight:400;
-        font-size:0.875rem;
+        font-style:normal;
+        font-size:1.125rem;
         line-height: 130%;
     }
  

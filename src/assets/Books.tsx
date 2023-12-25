@@ -60,6 +60,5 @@ export const BooksIcon = () => {
         fill="#666666"
       />
     </svg>
-  );
-};
-
+  )
+}

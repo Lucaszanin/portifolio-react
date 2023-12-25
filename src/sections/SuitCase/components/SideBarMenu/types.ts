@@ -1,3 +1,3 @@
 export type SideBarMenuProps = {
-  handleClick?: () => void;
-};
+  handleClick?: () => void
+}

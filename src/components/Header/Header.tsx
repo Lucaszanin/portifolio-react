@@ -1,10 +1,10 @@
-import { BooksIcon } from "../../assets/Books";
-import { HomeIcon } from "../../assets/HomeIcon";
-import { SkillsIcon } from "../../assets/SkiilsIcon";
-import { SuitCaseIcon } from "../../assets/SuitCaseIcon";
-import { CustomizeMiniButton } from "../CustomizeMiniButton/CustomizeMiniButton";
-import { SVG } from "../SVG/Index";
-import * as S from "./styles";
+import { BooksIcon } from '../../assets/Books'
+import { HomeIcon } from '../../assets/HomeIcon'
+import { SkillsIcon } from '../../assets/SkiilsIcon'
+import { SuitCaseIcon } from '../../assets/SuitCaseIcon'
+import { CustomizeMiniButton } from '../CustomizeMiniButton/CustomizeMiniButton'
+import { SVG } from '../SVG/Index'
+import * as S from './styles'
 
 export const Header = () => {
   return (
@@ -40,5 +40,5 @@ export const Header = () => {
         <CustomizeMiniButton text="Resumo" />
       </S.ButtonWrapper>
     </S.HeaderContainer>
-  );
-};
+  )
+}
