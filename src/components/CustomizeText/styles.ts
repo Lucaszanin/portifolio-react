@@ -28,5 +28,6 @@ export const TextContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 0.75rem 0;
   width: 100%;
 `

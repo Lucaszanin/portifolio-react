@@ -12,35 +12,37 @@ export const MainSection = () => {
   return (
     <S.MainContainer id="home">
       <S.LeftContent>
-        <CustomizeTitle
-          text="Olá"
-          align="start"
-          textcolor="gray"
-          weight="regular"
-        />
-        <CustomizeTitle
-          text="Eu Sou"
-          align="start"
-          textcolor="gray"
-          weight="regular"
-        />
-        <CustomizeTitle
-          text="Lucas Zanin"
-          align="start"
-          textcolor="red"
-          weight="bold"
-          animation={true.toString()}
-        />
-        <div style={{ margin: '30px 0' }}></div>
         <S.CableWrapper>
           <img src={CableLed} alt="" style={{ height: '274px' }} />
           <img src={Socials} alt="" style={{ height: '11.5rem' }} />
           <img src={CableLed2} alt="" style={{ height: '11.5rem' }} />
         </S.CableWrapper>
-        <CustomizeText text={C.firstParagraph} />
-        <div style={{ margin: '0.625rem 0' }}></div>
-        <CustomizeText text={C.secondParagraph} />
-        <ContactButton />
+        <S.TextWrapper>
+          <CustomizeTitle
+            text="Olá"
+            align="start"
+            textcolor="gray"
+            weight="regular"
+          />
+          <CustomizeTitle
+            text="Eu Sou"
+            align="start"
+            textcolor="gray"
+            weight="regular"
+          />
+          <CustomizeTitle
+            text="Lucas Zanin"
+            align="start"
+            textcolor="red"
+            weight="bold"
+            animation={true.toString()}
+            margin="12px"
+          />
+
+          <CustomizeText text={C.firstParagraph} />
+          <CustomizeText text={C.secondParagraph} />
+          <ContactButton />
+        </S.TextWrapper>
       </S.LeftContent>
       <S.ImagWrapper>
         <img src={CircleBackground} alt="" />

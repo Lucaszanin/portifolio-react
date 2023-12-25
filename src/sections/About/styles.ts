@@ -5,8 +5,7 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 13.125rem;
-  position: relative;
+  padding: 12rem;
 `
 
 export const LeftContent = styled.div`
@@ -48,11 +47,19 @@ export const ImagWrapper1 = styled.div`
 `
 
 export const CableWrapper = styled.div`
-  position: absolute;
-  top: 21vh;
   display: flex;
-  right: calc(700px - 20vw);
-  align-items: baseline;
+  align-self: center;
+  margin-top: 0.5rem;
+`
+
+export const TopWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`
+
+export const RightContent = styled.div`
+  display: flex;
   flex-direction: column;
   flex: 1;
 `

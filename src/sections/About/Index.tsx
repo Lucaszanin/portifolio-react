@@ -9,21 +9,23 @@ export const AboutSection = () => {
   return (
     <S.MainContainer id="about">
       <S.LeftContent>
-        <CustomizeTitle
-          text="Sobre mim"
-          align="start"
-          textcolor="red"
-          weight="bold"
-        />
+        <S.TopWrapper>
+          <CustomizeTitle
+            text="Sobre mim"
+            align="start"
+            textcolor="red"
+            weight="bold"
+            margin="3rem"
+          />
+          <S.CableWrapper>
+            <img src={CableLed} alt="" />
+          </S.CableWrapper>
+        </S.TopWrapper>
 
-        <div style={{ padding: '30px 0' }}></div>
-        <S.CableWrapper>
-          <img src={CableLed} alt="" />
-        </S.CableWrapper>
         <CustomizeText text={C.firstParagraph} />
 
         <CustomizeText text={C.secondParagraph} />
-        <div style={{ marginTop: '30px' }}></div>
+
         <CustomizeText
           text={'Algumas tecnologias que tenho trabalhado recentemente:'}
         />
@@ -38,17 +40,19 @@ export const AboutSection = () => {
           <S.TecnologiesText>React Hook Form</S.TecnologiesText>
         </S.TecnologiesWrapper>
       </S.LeftContent>
-      <S.ImagWrapper1>
-        <S.ImagWrapper>
-          <S.ImagWrapper2>
-            <img
-              src={PhotoImage}
-              style={{ height: '300px', borderRadius: '50%' }}
-              alt=""
-            />
-          </S.ImagWrapper2>
-        </S.ImagWrapper>
-      </S.ImagWrapper1>
+      <S.RightContent>
+        <S.ImagWrapper1>
+          <S.ImagWrapper>
+            <S.ImagWrapper2>
+              <img
+                src={PhotoImage}
+                style={{ height: '300px', borderRadius: '50%' }}
+                alt=""
+              />
+            </S.ImagWrapper2>
+          </S.ImagWrapper>
+        </S.ImagWrapper1>
+      </S.RightContent>
     </S.MainContainer>
   )
 }

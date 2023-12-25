@@ -15,10 +15,9 @@ type TextColorProps = {
 
 export const Title = styled.h1<TextColorProps>`
   text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);
-
+  width: 50vw;
   font-size: 3rem;
 
-  padding-right: 0.313rem;
   font-weight: ${(props) => props.weight};
 
   @keyframes write {
