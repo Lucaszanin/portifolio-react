@@ -44,9 +44,9 @@ export const MainSection = () => {
           <ContactButton />
         </S.TextWrapper>
       </S.LeftContent>
-      <S.ImagWrapper>
+      <S.ImageWrapper>
         <img src={CircleBackground} alt="" />
-      </S.ImagWrapper>
+      </S.ImageWrapper>
     </S.MainContainer>
   )
 }

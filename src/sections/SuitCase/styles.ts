@@ -20,7 +20,6 @@ export const ImageWrapper = styled.div`
   display: flex;
   & img {
     margin-bottom: -3vh;
-    margin-left: 100%;
   }
 `
 
@@ -30,6 +29,7 @@ export const LeftContent = styled.div`
   flex-direction: column;
   position: relative;
 `
+export const RightContent = styled.div``
 
 export const WorkTitle = styled.span`
   color: ${(props) => props.theme['gray-100']};

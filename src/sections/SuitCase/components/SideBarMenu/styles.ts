@@ -69,3 +69,14 @@ export const SpaceText = styled.div`
     background: url(${arrowLed}) no-repeat;
   }
 `
+
+export const WrapperInformations = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`
+export const HeaderInformations = styled.header`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+`

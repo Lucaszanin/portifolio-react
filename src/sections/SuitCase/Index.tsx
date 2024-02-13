@@ -6,13 +6,7 @@ import { WorkInformations } from './components/WorkInformations/Index'
 
 export const SuitCaseSection = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        alignItems: 'flex-start',
-        justifyContent: 'space-between',
-      }}
-    >
+    <>
       <S.Container id="suitcase">
         <S.TitleWrapper>
           <CustomizeTitle
@@ -28,10 +22,10 @@ export const SuitCaseSection = () => {
         <S.LeftContent>
           <WorkInformations />
         </S.LeftContent>
-      </S.Container>{' '}
-      <div>
+      </S.Container>
+      <S.RightContent>
         <img src={prismaled} alt="" />
-      </div>
-    </div>
+      </S.RightContent>
+    </>
   )
 }

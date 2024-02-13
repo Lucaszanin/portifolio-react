@@ -9,6 +9,12 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme['gray-800']};
   position: fixed;
   z-index: 1;
+  @media (max-width: 768px) {
+    padding: 0 4rem;
+  }
+  @media (max-width: 425px) {
+    padding: 0 3rem;
+  }
 `
 
 export const LogoWrapper = styled.div`

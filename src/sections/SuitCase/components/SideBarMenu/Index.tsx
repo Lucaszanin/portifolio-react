@@ -8,7 +8,6 @@ export const SideBarMenu = () => {
 
   const handleClickActive = () => {
     setActive(!isActive)
-    console.log(isActive)
   }
 
   return (
@@ -24,8 +23,8 @@ export const SideBarMenu = () => {
         </S.MenuItem>
       </S.Navigation>
       {isActive ? (
-        <div>
-          <div>
+        <S.WrapperInformations>
+          <S.HeaderInformations>
             <S.WorkTitle>
               Desenvolvedor Front End
               <div>
@@ -33,7 +32,7 @@ export const SideBarMenu = () => {
               </div>
             </S.WorkTitle>
             <S.WorkSubTitle>abril 2023 até o momento</S.WorkSubTitle>
-          </div>
+          </S.HeaderInformations>
           <S.SpaceText>
             <CustomizeText text={C.paragraph1} />
           </S.SpaceText>
@@ -43,10 +42,10 @@ export const SideBarMenu = () => {
           <S.SpaceText>
             <CustomizeText text={C.paragraph1} />
           </S.SpaceText>
-        </div>
+        </S.WrapperInformations>
       ) : (
-        <div>
-          <div>
+        <S.WrapperInformations>
+          <S.HeaderInformations>
             <S.WorkTitle>
               Desenvolvedor Front End
               <div>
@@ -54,7 +53,7 @@ export const SideBarMenu = () => {
               </div>
             </S.WorkTitle>
             <S.WorkSubTitle>setembro 2023 até abril 2023</S.WorkSubTitle>
-          </div>
+          </S.HeaderInformations>
           <S.SpaceText>
             <CustomizeText text={C.paragraphOneM3} />
           </S.SpaceText>
@@ -64,7 +63,7 @@ export const SideBarMenu = () => {
           <S.SpaceText>
             <CustomizeText text={C.paragrapThreeM3} />
           </S.SpaceText>
-        </div>
+        </S.WrapperInformations>
       )}
     </S.Container>
   )
