@@ -1,4 +1,4 @@
-import { SideBarMenu } from '../SideBarMenu/Index'
+import { SideBarMenu } from '../SideBarMenu/SideBarMenu'
 
 export const WorkInformations = () => {
   return (

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import arrowLed from '../../../../../assets/arrow-led.svg'
+import arrowLed from '../../../../assets/arrow-led.svg'
 
 export const Container = styled.div`
   display: flex;

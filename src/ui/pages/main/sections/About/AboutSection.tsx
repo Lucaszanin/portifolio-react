@@ -1,10 +1,11 @@
-import { CommonButton } from '../../../../../components/CommonButton/CommonButton'
-import CableLed from '../../../assets/cable-about.svg'
-import PhotoImage from '../../../assets/perfil.jpeg'
-import { CustomizeText } from '../../CustomizeText/CustomizeText'
-import { CustomizeTitle } from '../../CustomizeTitle/CustomizeTitle'
-import * as C from './constants'
-import * as S from './styles'
+import { CommonButton } from '../../../../components/CommonButton/CommonButton'
+import CableLed from '../../assets/cable-led-2.svg'
+import PhotoImage from '../../assets/perfil.jpeg'
+import { CustomizeText } from '../../components/CustomizeText/CustomizeText'
+import { CustomizeTitle } from '../../components/CustomizeTitle/CustomizeTitle'
+
+import * as C from './AboutSection.constants'
+import * as S from './AboutSection.styles'
 
 export const AboutSection = () => {
   return (
@@ -22,7 +23,7 @@ export const AboutSection = () => {
             <img src={CableLed} alt="" />
           </S.CableWrapper>
         </S.TopWrapper>
-        <CommonButton labelText="Testando" backgroundType="Dark" />
+        <CommonButton labelText="Testando" />
         <CustomizeText text={C.firstParagraph} />
 
         <CustomizeText text={C.secondParagraph} />
