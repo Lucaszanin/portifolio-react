@@ -27,12 +27,14 @@ export const ImagWrapper = styled.div`
 export const ImagWrapper2 = styled.div`
   display: flex;
   align-items: center;
+
   justify-content: center;
   flex-shrink: 0;
   border-radius: 23.75rem;
 
   padding: 0.313rem;
   background-color: ${(props) => props.theme['gray-800']};
+  position: relative;
 `
 
 export const ImagWrapper1 = styled.div`
@@ -49,20 +51,20 @@ export const ImagWrapper1 = styled.div`
 export const CableWrapper = styled.div`
   display: flex;
   align-self: center;
-  margin-top: 0.5rem;
+
+  margin-bottom: 7vh;
+
   img {
     position: absolute;
-    width: 50vw !important;
-    left: 25%;
+    left: 42vw;
   }
 `
 
 export const TopWrapper = styled.div`
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 70%;
   justify-content: space-between;
-
   h1 {
     width: fit-content;
   }
@@ -71,7 +73,6 @@ export const TopWrapper = styled.div`
 export const RightContent = styled.div`
   display: flex;
   flex-direction: column;
-  flex: 1;
 `
 
 export const TecnologiesText = styled.span`
