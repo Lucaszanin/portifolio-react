@@ -1,12 +1,12 @@
-import { CustomizeText } from '../../components/CustomizeText/Index'
-import { CustomizeTitle } from '../../components/CustomizeTitle'
-import CircleBackground from '../../ui/pages/main/assets/circle-led.svg'
-import CableLed from '../../ui/pages/main/assets/cable-led.svg'
-import CableLed2 from '../../ui/pages/main/assets/cable-led-2.svg'
-import Socials from '../../ui/pages/main/assets/socials.svg'
+import CircleBackground from '../../../assets/circle-led.svg'
+import CableLed from '../../../assets/cable-led.svg'
+import CableLed2 from '../../../assets/cable-led-2.svg'
+import Socials from '../../../assets/socials.svg'
 import * as C from './constants'
 import * as S from './styles'
-import { ContactButton } from '../../components/ContactButton/Index'
+import { CustomizeTitle } from '../../CustomizeTitle/CustomizeTitle'
+import { CustomizeText } from '../../CustomizeText/CustomizeText'
+import { ContactButton } from '../../ContactButton/ContactButton'
 
 export const MainSection = () => {
   return (

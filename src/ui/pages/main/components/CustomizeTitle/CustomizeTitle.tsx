@@ -1,5 +1,5 @@
-import * as S from './styles'
-import type * as T from './types'
+import * as S from './CustomizeTitle.styles'
+import type * as T from './CustomizeTitle.types'
 
 export const CustomizeTitle = ({
   text,

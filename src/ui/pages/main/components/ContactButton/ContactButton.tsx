@@ -1,4 +1,4 @@
-import * as S from './styles'
+import * as S from './ContactButton.styles'
 
 export const ContactButton = () => (
   <a href="https://wa.me/5519998343873" target="_blank" rel="noreferrer">

@@ -1,6 +1,6 @@
-import { CustomizeText } from '../../../../components/CustomizeText/Index'
-import { CustomizeTitle } from '../../../../components/CustomizeTitle'
-import * as S from './styles'
+import { CustomizeText } from '../../../../components/CustomizeText/CustomizeText'
+import { CustomizeTitle } from '../../../../components/CustomizeTitle/CustomizeTitle'
+import * as S from './ProjectCard.styles'
 
 export const ProjectCard = () => {
   return (

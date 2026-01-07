@@ -4,7 +4,7 @@ import { SkillsIcon } from '../../assets/SkiilsIcon'
 import { SuitCaseIcon } from '../../assets/SuitCaseIcon'
 import { CustomizeMiniButton } from '../CustomizeMiniButton/CustomizeMiniButton'
 import { SVG } from '../SVG/Index'
-import * as S from './styles'
+import * as S from './Header.styles'
 
 export const Header = () => {
   return (

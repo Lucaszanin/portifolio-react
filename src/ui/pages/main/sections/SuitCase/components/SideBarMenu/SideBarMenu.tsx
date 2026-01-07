@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import * as S from './styles'
-import * as C from './constants'
-import { CustomizeText } from '../../../../CustomizeText/Index'
+import * as S from './SideBarMenu.styles'
+import * as C from './SideBarMenu.constants'
+import { CustomizeText } from '../../../../components/CustomizeText/CustomizeText'
 
 export const SideBarMenu = () => {
   const [isActive, setActive] = useState(true)

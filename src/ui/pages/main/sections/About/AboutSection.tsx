@@ -1,7 +1,8 @@
-import { CustomizeText } from '../../components/CustomizeText/Index'
-import { CustomizeTitle } from '../../components/CustomizeTitle'
-import PhotoImage from '../../ui/pages/main/assets/perfil.jpeg'
-import CableLed from '../../ui/pages/main/assets/cable-about.svg'
+import { CommonButton } from '../../../../../components/CommonButton/CommonButton'
+import CableLed from '../../../assets/cable-about.svg'
+import PhotoImage from '../../../assets/perfil.jpeg'
+import { CustomizeText } from '../../CustomizeText/CustomizeText'
+import { CustomizeTitle } from '../../CustomizeTitle/CustomizeTitle'
 import * as C from './constants'
 import * as S from './styles'
 
@@ -21,7 +22,7 @@ export const AboutSection = () => {
             <img src={CableLed} alt="" />
           </S.CableWrapper>
         </S.TopWrapper>
-
+        <CommonButton labelText="Testando" backgroundType="Dark" />
         <CustomizeText text={C.firstParagraph} />
 
         <CustomizeText text={C.secondParagraph} />

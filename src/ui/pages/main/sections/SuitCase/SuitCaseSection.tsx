@@ -2,7 +2,7 @@ import prismaled from '../../../assets/prisma-led.svg'
 import cablework from '../../../assets/cable-work-experience.svg'
 import * as S from './styles'
 import { WorkInformations } from './components/WorkInformations/Index'
-import { CustomizeTitle } from '../../CustomizeTitle'
+import { CustomizeTitle } from '../../CustomizeTitle/CustomizeTitle'
 
 export const SuitCaseSection = () => {
   return (

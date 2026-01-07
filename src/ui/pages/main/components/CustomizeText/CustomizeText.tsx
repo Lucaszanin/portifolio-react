@@ -1,6 +1,6 @@
 import { Fragment } from 'react'
-import * as S from './styles'
-import type * as T from './types'
+import * as S from './CustomizeText.styles'
+import type * as T from './CustomizeText.types'
 
 export const CustomizeText = ({
   text,
