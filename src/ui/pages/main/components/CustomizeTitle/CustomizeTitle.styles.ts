@@ -25,7 +25,7 @@ export const Title = styled.h1<TextColorProps>`
       width: 0;
     }
     to {
-      width: 100%;
+      width: 30%;
     }
   }
   @keyframes blink {
@@ -43,7 +43,7 @@ export const Title = styled.h1<TextColorProps>`
   ${(props) =>
     props.animation &&
     `
-    animation: write 4s steps(40) forwards, blink 1s infinite;
+    animation: write 4s steps(40) forwards infinite, blink 1s infinite;
     padding-right:0.313rem;
     border-right: 2px solid ${props.theme['gray-700']};
     `};

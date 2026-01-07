@@ -17,35 +17,23 @@ export const MainSection = () => {
           <img src={Socials} alt="" style={{ height: '11.5rem' }} />
           <img src={CableLed2} alt="" style={{ height: '11.5rem' }} />
         </S.CableWrapper>
+
         <S.TextWrapper>
-          <CustomizeTitle
-            text="Olá"
-            align="start"
-            textcolor="gray"
-            weight="regular"
-          />
-          <CustomizeTitle
-            text="Eu Sou"
-            align="start"
-            textcolor="gray"
-            weight="regular"
-          />
-          <CustomizeTitle
-            text="Lucas Zanin"
-            align="start"
-            textcolor="red"
-            weight="bold"
-            animation={true.toString()}
-            margin="12px"
-          />
+          <CustomizeTitle {...C.firstTitleProps} />
+          <CustomizeTitle {...C.secondTitleprops} />
+          <CustomizeTitle {...C.principalTitleProps} />
 
           <CustomizeText text={C.firstParagraph} />
           <CustomizeText text={C.secondParagraph} />
+          <CustomizeText text={C.thirtParagraph} />
           <ContactButton />
         </S.TextWrapper>
       </S.LeftContent>
       <S.ImagWrapper>
-        <img src={CircleBackground} alt="" />
+        <img
+          src={CircleBackground}
+          alt="Imagem com dois circulos negros, com contorno vermelho"
+        />
       </S.ImagWrapper>
     </S.MainContainer>
   )
