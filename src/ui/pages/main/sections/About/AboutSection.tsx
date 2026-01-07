@@ -1,5 +1,4 @@
-import { CommonButton } from '../../../../components/CommonButton/CommonButton'
-import CableLed from '../../assets/cable-led-2.svg'
+import CableLed2 from '../../assets/cable-about.svg'
 import PhotoImage from '../../assets/perfil.jpeg'
 import { CustomizeText } from '../../components/CustomizeText/CustomizeText'
 import { CustomizeTitle } from '../../components/CustomizeTitle/CustomizeTitle'
@@ -20,10 +19,9 @@ export const AboutSection = () => {
             margin="3rem"
           />
           <S.CableWrapper>
-            <img src={CableLed} alt="" />
+            <img src={CableLed2} alt="" />
           </S.CableWrapper>
         </S.TopWrapper>
-        <CommonButton labelText="Testando" />
         <CustomizeText text={C.firstParagraph} />
 
         <CustomizeText text={C.secondParagraph} />

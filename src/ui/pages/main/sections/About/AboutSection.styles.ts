@@ -50,12 +50,22 @@ export const CableWrapper = styled.div`
   display: flex;
   align-self: center;
   margin-top: 0.5rem;
+  img {
+    position: absolute;
+    width: 50vw !important;
+    left: 25%;
+  }
 `
 
 export const TopWrapper = styled.div`
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
+
+  h1 {
+    width: fit-content;
+  }
 `
 
 export const RightContent = styled.div`
