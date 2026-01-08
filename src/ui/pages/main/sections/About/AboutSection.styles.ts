@@ -87,6 +87,7 @@ export const TecnologiesText = styled.span`
     width: 1.25rem;
     height: 1.25rem;
     background: url(${arrowLed}) no-repeat;
+    background-size: cover;
   }
 `
 
