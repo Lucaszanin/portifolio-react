@@ -59,12 +59,17 @@ export const WorkSubTitle = styled.p`
 
 export const SpaceText = styled.div`
   display: flex;
+  flex-direction: column;
   margin: 0.625rem 0;
+  overflow-y: scroll;
+  height: 60vh;
+  padding: 0 1rem;
   &::before {
     content: '';
     display: block;
     width: 1.25rem;
     height: 1.25rem;
+    margin-top: 15px;
     margin-right: 0.813rem;
     background: url(${arrowLed}) no-repeat;
   }

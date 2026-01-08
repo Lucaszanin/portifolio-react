@@ -12,11 +12,11 @@ export const SideBarContent = ({ content }: T.SideBarMenuProps) => {
             <S.EvidenceText>{content.company}</S.EvidenceText>
             <S.WorkSubTitle>{content.period}</S.WorkSubTitle>
           </S.WrapperTitle>
-          {content?.paragraphs?.map((p) => (
-            <S.SpaceText key={p.id}>
-              <CustomizeText text={p.text} />
-            </S.SpaceText>
-          ))}
+          <S.SpaceText>
+            {content?.paragraphs?.map((p) => (
+              <CustomizeText text={p.text} key={p.id} />
+            ))}
+          </S.SpaceText>
         </S.WrapperContent>
       )}
     </S.Container>

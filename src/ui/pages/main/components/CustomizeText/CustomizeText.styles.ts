@@ -13,6 +13,7 @@ type TextColorProps = {
 export const CustomizeTextStyles = styled.p<TextColorProps>`
   color: ${(props) => props.theme['gray-300']};
   max-width: 50vw;
+  white-space: pre-wrap;
   ${(props) =>
     props.highlightColor &&
     `
