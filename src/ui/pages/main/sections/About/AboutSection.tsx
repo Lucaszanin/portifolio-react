@@ -18,9 +18,6 @@ export const AboutSection = () => {
             weight="bold"
             margin="3rem"
           />
-          <S.CableWrapper>
-            <img src={CableLed2} alt="" />
-          </S.CableWrapper>
         </S.TopWrapper>
         <CustomizeText text={C.firstParagraph} />
 
@@ -51,6 +48,9 @@ export const AboutSection = () => {
               />
             </S.ImagWrapper2>
           </S.ImagWrapper>
+          <S.CableWrapper>
+            <img src={CableLed2} alt="" />
+          </S.CableWrapper>
         </S.ImagWrapper1>
       </S.RightContent>
     </S.MainContainer>
