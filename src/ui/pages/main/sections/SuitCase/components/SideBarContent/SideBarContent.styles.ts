@@ -58,11 +58,7 @@ export const WorkSubTitle = styled.p`
 
 export const SpaceText = styled.div`
   display: flex;
-  flex-direction: column;
-  margin: 0.625rem 0;
-  overflow-y: scroll;
-  height: 60vh;
-  padding: 0 1rem;
+  padding: 1rem 1rem 0 0;
   &::before {
     content: '';
     display: block;
@@ -73,6 +69,13 @@ export const SpaceText = styled.div`
     background: url('/arrow-led.svg') no-repeat;
     background-size: contain;
   }
+`
+export const TextContainer = styled.div`
+  width: fit-content;
+  margin-top: 1rem;
+  height: 50vh;
+  max-height: 100%;
+  overflow-y: scroll;
 `
 
 export const WrapperContent = styled.div`
