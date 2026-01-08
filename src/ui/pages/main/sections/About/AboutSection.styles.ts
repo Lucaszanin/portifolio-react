@@ -78,7 +78,7 @@ export const RightContent = styled.div`
 export const TecnologiesText = styled.span`
   color: ${(props) => props.theme['gray-500']};
   display: flex;
-
+  position: relative;
   font-weight: 700;
 
   &::before {
