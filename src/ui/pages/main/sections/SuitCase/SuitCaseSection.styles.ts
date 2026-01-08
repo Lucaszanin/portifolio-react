@@ -46,7 +46,7 @@ export const RightContent = styled.div`
   display: flex;
   position: absolute;
   right: 0;
-  top: 0;
+  top: 100px;
   width: 20vw;
 `
 

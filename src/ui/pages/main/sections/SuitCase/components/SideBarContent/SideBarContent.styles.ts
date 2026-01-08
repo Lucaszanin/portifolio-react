@@ -71,7 +71,8 @@ export const SpaceText = styled.div`
     height: 1.25rem;
     margin-top: 15px;
     margin-right: 0.813rem;
-    background: url(${arrowLed}) no-repeat;
+    background: url('/arrow-led.svg') no-repeat;
+    background-size: contain;
   }
 `
 
