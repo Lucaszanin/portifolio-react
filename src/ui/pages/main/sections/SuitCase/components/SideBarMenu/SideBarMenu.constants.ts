@@ -13,11 +13,13 @@ Além do desenvolvimento técnico, fui mentor no programa Desenvolve, iniciativa
 
 Sempre tive forte preocupação com a experiência do usuário, propondo e implementando melhorias contínuas na interface e usabilidade, como a reorganização de menus laterais em ordem alfabética, entre outros ajustes que impactaram positivamente a navegação e o uso do sistema.`
 
-export const paragraphOneM3 = `Desenvolvimento e implantação de E-comerce com a plataforma VTEX, utlizando React, Typescript e SASS.`
+export const paragrapTwoM3 = `Na M3 E-commerce, atuei em uma squad LATAM, trabalhando em um ambiente multicultural com PMs da Colômbia e da Argentina, o que me levou a aprender espanhol para garantir uma comunicação eficiente no dia a dia do time.
 
-export const paragrapTwoM3 = `Também tabalhava com evolução de funcionalidades de projetos LATAM, principalmente com lojas da Argentina, Colombia e Chile.`
+Atuei simultaneamente em três lojas, sendo responsável pela implementação e manutenção de componentes utilizando React, TypeScript, Sass, Custom Hooks e, em alguns contextos, jQuery, dentro da plataforma VTEX, com foco em VTEX IO. Durante esse período, tive a oportunidade de implantar três lojas do zero, participando de todas as etapas do desenvolvimento, o que proporcionou um período de intenso aprendizado técnico.`
 
-export const paragrapThreeM3 = `Realizava o acompanhamento dos projetos do inicio ao deploy, para armazenamento de código era utilizada a ferramente BitBucket.`
+export const paragrapThreeM3 = `Os principais desafios envolveram a rápida adaptação à plataforma VTEX e a comunicação em um time internacional. Após alguns meses, além de dominar melhor as ferramentas, tornei-me referência para apoiar novos integrantes, especialmente na comunicação com os PMs e no entendimento dos fluxos de trabalho da squad.
+
+Também adquiri conhecimentos em GraphQL, aplicados na integração e consumo de dados, além de experiência com o painel administrativo do VTEX IO, ampliando minha visão sobre e-commerce, arquitetura da plataforma e gestão de lojas.`
 
 export const experiences = [
   {
