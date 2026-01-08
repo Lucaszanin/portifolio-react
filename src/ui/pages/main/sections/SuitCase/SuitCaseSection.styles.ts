@@ -11,9 +11,7 @@ export const Container = styled.div`
 
 export const TitleWrapper = styled.div`
   display: flex;
-  align-items: flex-end;
-  justify-content: space-around;
-  width: 100%;
+  width: fit-content;
   h1 {
     width: fit-content;
     display: flex;
@@ -32,9 +30,9 @@ export const TitleWrapper = styled.div`
 
 export const ImageWrapper = styled.div`
   display: flex;
+  position: absolute;
+  right: 0;
   & img {
-    margin-bottom: -3vh;
-    margin-left: 100%;
   }
 `
 
@@ -42,7 +40,14 @@ export const LeftContent = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  position: relative;
+`
+
+export const RightContent = styled.div`
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20vw;
 `
 
 export const WorkTitle = styled.span`

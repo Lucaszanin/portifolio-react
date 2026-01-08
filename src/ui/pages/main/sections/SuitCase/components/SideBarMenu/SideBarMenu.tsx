@@ -1,15 +1,10 @@
-import { useState } from 'react'
 import * as S from './SideBarMenu.styles'
 import * as C from './SideBarMenu.constants'
 import { CustomizeText } from '../../../../components/CustomizeText/CustomizeText'
+import { useSidebarMenu } from '../../useSidebarMenu/useSidebarMenu'
 
 export const SideBarMenu = () => {
-  const [isActive, setActive] = useState(true)
-
-  const handleClickActive = () => {
-    setActive(!isActive)
-    console.log(isActive)
-  }
+  const { isActive, handleClickActive } = useSidebarMenu()
 
   return (
     <S.Container>
@@ -17,7 +12,7 @@ export const SideBarMenu = () => {
         <S.MenuItem isactive={isActive}>
           <S.ItemText onClick={handleClickActive}>Grupo Boticário</S.ItemText>
         </S.MenuItem>
-        <S.MenuItem isactive={!isActive}>
+        <S.MenuItem isactive={isActive}>
           <S.ItemText onClick={handleClickActive}>
             M3 Desenvolvimento
           </S.ItemText>
@@ -27,12 +22,12 @@ export const SideBarMenu = () => {
         <div>
           <div>
             <S.WorkTitle>
-              Desenvolvedor Front End
+              Desenvolvedor Front End Pleno
               <div>
                 <S.EvidenceText>Grupo Boticário</S.EvidenceText>
               </div>
             </S.WorkTitle>
-            <S.WorkSubTitle>abril 2023 até o momento</S.WorkSubTitle>
+            <S.WorkSubTitle>abril 2023 até agosto 2025</S.WorkSubTitle>
           </div>
           <S.SpaceText>
             <CustomizeText text={C.paragraph1} />
