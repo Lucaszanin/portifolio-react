@@ -1,4 +1,3 @@
-import CableLed2 from '../../assets/cable-about.svg'
 import PhotoImage from '../../assets/perfil.jpeg'
 import { CustomizeText } from '../../components/CustomizeText/CustomizeText'
 import { CustomizeTitle } from '../../components/CustomizeTitle/CustomizeTitle'
@@ -41,18 +40,11 @@ export const AboutSection = () => {
         <S.ImagWrapper1>
           <S.ImagWrapper>
             <S.ImagWrapper2>
-              <img
-                src={PhotoImage}
-                style={{ height: '382px', borderRadius: '50%' }}
-                alt=""
-              />
+              <img src={PhotoImage} style={{ borderRadius: '50%' }} alt="" />
             </S.ImagWrapper2>
           </S.ImagWrapper>
         </S.ImagWrapper1>
       </S.RightContent>
-      <S.CableWrapper>
-        <img src={CableLed2} alt="" />
-      </S.CableWrapper>
     </S.MainContainer>
   )
 }

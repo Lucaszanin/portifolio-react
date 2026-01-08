@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const MainContainer = styled.div`
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 6rem 12rem;
-  position: relative;
 `
 
 export const LeftContent = styled.div`
@@ -27,9 +27,8 @@ export const ImagWrapper = styled.div`
 export const ImagWrapper2 = styled.div`
   display: flex;
   align-items: center;
-
+  width: 18vw;
   justify-content: center;
-  flex-shrink: 0;
   border-radius: 23.75rem;
 
   padding: 0.313rem;
@@ -38,9 +37,10 @@ export const ImagWrapper2 = styled.div`
 
 export const ImagWrapper1 = styled.div`
   display: flex;
+  position: relative;
   align-self: center;
   justify-content: center;
-  flex-shrink: 0;
+  flex: 1;
   margin-top: 10vh;
   border-radius: 26.25rem;
   padding: 0.313rem;
@@ -49,15 +49,17 @@ export const ImagWrapper1 = styled.div`
 
 export const CableWrapper = styled.div`
   position: absolute;
-  right: 383px;
-  top: 13vh;
+  right: 100%;
+  top: 0;
   img {
+    width: 40vw;
   }
 `
 
 export const TopWrapper = styled.div`
   display: flex;
   align-items: center;
+  position: relative;
   width: 70%;
   justify-content: space-between;
   h1 {

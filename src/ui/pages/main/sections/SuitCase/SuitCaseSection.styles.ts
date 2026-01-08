@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  align-items: flex-start;
+  align-items: start;
   flex-direction: column;
   justify-content: space-between;
-  padding: 9.375rem;
+  padding: 6rem 12rem;
   position: relative;
 `
 
@@ -46,6 +46,7 @@ export const RightContent = styled.div`
   display: flex;
   position: absolute;
   right: 0;
+  z-index: -1;
   top: 100px;
   width: 20vw;
 `

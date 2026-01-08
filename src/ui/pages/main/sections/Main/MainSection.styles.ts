@@ -4,7 +4,7 @@ export const MainContainer = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 7rem 5rem;
+  padding: 6rem 12rem;
   position: relative;
 `
 

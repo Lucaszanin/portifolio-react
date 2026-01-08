@@ -11,7 +11,6 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <DefaultLayout />
-
       <MainSection />
       <AboutSection />
       <SuitCaseSection />

@@ -4,7 +4,9 @@ import arrowLed from '../../../../assets/arrow-led.svg'
 export const Container = styled.div`
   display: flex;
   align-items: baseline;
-  width: 100%;
+  width: 70vw;
+  max-width: 100%;
+  justify-content: space-between;
   margin-top: 4.375rem;
 `
 
