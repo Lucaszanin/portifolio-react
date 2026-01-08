@@ -43,16 +43,16 @@ export const AboutSection = () => {
             <S.ImagWrapper2>
               <img
                 src={PhotoImage}
-                style={{ height: '300px', borderRadius: '50%' }}
+                style={{ height: '382px', borderRadius: '50%' }}
                 alt=""
               />
             </S.ImagWrapper2>
           </S.ImagWrapper>
-          <S.CableWrapper>
-            <img src={CableLed2} alt="" />
-          </S.CableWrapper>
         </S.ImagWrapper1>
       </S.RightContent>
+      <S.CableWrapper>
+        <img src={CableLed2} alt="" />
+      </S.CableWrapper>
     </S.MainContainer>
   )
 }

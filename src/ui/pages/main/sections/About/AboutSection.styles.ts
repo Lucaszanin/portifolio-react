@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const MainContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 12rem;
+  padding: 6rem 12rem;
   position: relative;
 `
 
@@ -48,15 +48,10 @@ export const ImagWrapper1 = styled.div`
 `
 
 export const CableWrapper = styled.div`
-  display: flex;
-  align-self: center;
-
-  margin-bottom: 7vh;
-
+  position: absolute;
+  right: 383px;
+  top: 13vh;
   img {
-    position: absolute;
-    right: 21%;
-    top: -10%;
   }
 `
 
@@ -67,6 +62,17 @@ export const TopWrapper = styled.div`
   justify-content: space-between;
   h1 {
     width: fit-content;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: ' ';
+      display: block;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      background: url('/arrow-heading-led.svg') no-repeat;
+      background-size: cover;
+    }
   }
 `
 

@@ -14,6 +14,20 @@ export const TitleWrapper = styled.div`
   align-items: flex-end;
   justify-content: space-around;
   width: 100%;
+  h1 {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    &::before {
+      content: ' ';
+      display: block;
+      margin-right: 10px;
+      width: 50px;
+      height: 50px;
+      background: url('/arrow-heading-led.svg') no-repeat;
+      background-size: cover;
+    }
+  }
 `
 
 export const ImageWrapper = styled.div`
