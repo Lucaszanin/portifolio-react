@@ -82,7 +82,7 @@ export const TecnologiesText = styled.span`
   font-weight: 700;
 
   &::before {
-    content: '';
+    content: ' ';
     display: block;
     width: 1.25rem;
     height: 1.25rem;
