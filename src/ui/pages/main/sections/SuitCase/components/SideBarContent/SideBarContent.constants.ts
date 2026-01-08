@@ -13,10 +13,7 @@ export const experiences = [
     title: 'Desenvolvedor Front End Pleno',
     company: 'Grupo Boticário',
     period: 'abril 2023 até agosto 2025',
-    paragraphs: [
-      { id: 'p1', text: paragraph1 },
-      { id: 'p2', text: paragraph1 },
-    ],
+    paragraphs: [paragraph1, paragraph1],
   },
   {
     id: 'm3',
@@ -24,9 +21,6 @@ export const experiences = [
     title: 'Desenvolvedor Front End',
     company: 'M3 Desenvolvimento',
     period: 'setembro 2023 até abril 2023',
-    paragraphs: [
-      { id: 'p3', text: paragrapTwoM3 },
-      { id: 'p4', text: paragrapThreeM3 },
-    ],
+    paragraphs: [paragrapTwoM3, paragrapThreeM3],
   },
 ]

@@ -1,7 +1,6 @@
 import prismaled from '../../assets/prisma-led.svg'
-import cablework from '../../assets/cable-work-experience.svg'
 import * as S from './SuitCaseSection.styles'
-import { WorkInformations } from './components/WorkInformations/WorkInformations'
+import { SideBarMenu } from './components/SideBarMenu/SideBarMenu'
 import { CustomizeTitle } from '../../components/CustomizeTitle/CustomizeTitle'
 
 export const SuitCaseSection = () => {
@@ -16,7 +15,7 @@ export const SuitCaseSection = () => {
         />
       </S.TitleWrapper>
       <S.LeftContent>
-        <WorkInformations />
+        <SideBarMenu />
       </S.LeftContent>
       <S.RightContent>
         <img src={prismaled} alt="" />

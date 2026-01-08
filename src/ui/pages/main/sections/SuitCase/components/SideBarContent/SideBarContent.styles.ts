@@ -73,3 +73,8 @@ export const SpaceText = styled.div`
 export const WrapperContent = styled.div`
   display: block;
 `
+
+export const WrapperTitle = styled.div`
+  display: flex;
+  flex-direction: column;
+`
