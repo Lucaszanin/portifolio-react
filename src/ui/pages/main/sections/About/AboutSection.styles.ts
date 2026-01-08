@@ -1,9 +1,7 @@
 import styled from 'styled-components'
-import arrowLed from '../../assets/arrow-led.svg'
 
 export const MainContainer = styled.div`
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
   padding: 12rem;
 `
@@ -72,7 +70,6 @@ export const TopWrapper = styled.div`
 
 export const RightContent = styled.div`
   display: flex;
-  flex-direction: column;
 `
 
 export const TecnologiesText = styled.span`
@@ -86,7 +83,7 @@ export const TecnologiesText = styled.span`
     display: block;
     width: 1.25rem;
     height: 1.25rem;
-    background: url(${arrowLed}) no-repeat;
+    background: url('/arrow-led.svg') no-repeat;
     background-size: cover;
   }
 `
