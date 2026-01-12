@@ -1,5 +1,6 @@
 import { CommonButton } from '../../../../../../components/CommonButton/CommonButton'
 import * as T from './Navbar.types'
+import * as S from './Navbar.styles'
 
 export const Navbar = ({
   items,
@@ -7,18 +8,18 @@ export const Navbar = ({
   activeCategory,
 }: T.NavbarProps) => {
   return (
-    <nav style={{ width: '100%' }}>
-      <ul style={{ display: 'flex', gap: '16px' }}>
+    <S.NavBar>
+      <S.MenuList>
         {items?.map((item, index) => (
-          <li key={`${item.id}-${index}`}>
+          <S.ListItem key={`${item.id}-${index}`}>
             <CommonButton
               handleClick={() => onChangeCategoria(item.id)}
               isActive={item.id === activeCategory}
               labelText={item.label}
             />
-          </li>
+          </S.ListItem>
         ))}
-      </ul>
-    </nav>
+      </S.MenuList>
+    </S.NavBar>
   )
 }
