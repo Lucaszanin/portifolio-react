@@ -8,6 +8,12 @@ export const MainContainer = styled.div`
   @media (max-width: 1440px) {
     padding: 6rem;
   }
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
+  @media (max-width: 668px) {
+    padding: 2rem;
+  }
 `
 
 export const LeftContent = styled.div`
@@ -22,6 +28,11 @@ export const ImagWrapper = styled.div`
   right: 0;
   top: 3rem;
   z-index: -1;
+  img {
+    @media (max-width: 1023px) {
+      opacity: 0.4;
+    }
+  }
 `
 
 export const TextWrapper = styled.div``

@@ -10,6 +10,9 @@ export const Container = styled.div`
   @media (max-width: 1440px) {
     padding: 6rem;
   }
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
 `
 
 export const TitleWrapper = styled.div`

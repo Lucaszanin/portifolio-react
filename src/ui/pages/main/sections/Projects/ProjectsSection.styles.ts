@@ -8,6 +8,9 @@ export const MainContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
+  @media (max-width: 768px) {
+    padding: 3rem;
+  }
 `
 
 export const SubtitleText = styled.h3`
