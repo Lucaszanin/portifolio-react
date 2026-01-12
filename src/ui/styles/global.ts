@@ -10,6 +10,10 @@ export const GlobalStyle = createGlobalStyle`
         scroll-behavior: smooth;
     }
 
+    html {
+  font-size: 100%; 
+      }
+
     :focus{
         outline:0;
         
@@ -40,15 +44,9 @@ export const GlobalStyle = createGlobalStyle`
 
  
     
-    /* @media (max-width: 768px) {
-        html,
-        body,
-        input,
-        p,
-        textarea,
-        span,
-        button {
-          font-size: 87.5% !important;
-        }
-      } */
+    @media (max-width: 768px) {
+   html {
+    font-size: 93.75%;
+  }
+    }
 `

@@ -49,6 +49,10 @@ export const Title = styled.h2<TextColorProps>`
     `};
 
   color: ${(props) => props.theme[TEXT_PROPS[props.textcolor]]};
+
+  @media (max-width: 768px) {
+    font-size: 2.5rem;
+  }
 `
 
 const ALIGN_CONTAINER = {

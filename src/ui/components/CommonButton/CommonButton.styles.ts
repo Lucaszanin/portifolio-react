@@ -7,6 +7,7 @@ interface ButtonProps {
 export const Button = styled.button<ButtonProps>`
   border-radius: 6px;
   width: 100%;
+  white-space: nowrap;
   padding: 10px 18px;
   border: 1px solid
     ${(props) =>
@@ -25,5 +26,9 @@ export const Button = styled.button<ButtonProps>`
 
   &:hover {
     box-shadow: 0px 0px 30px 0px rgba(202, 62, 71, 0.7);
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
   }
 `

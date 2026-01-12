@@ -7,6 +7,9 @@ export const Container = styled.div`
   justify-content: space-between;
   padding: 6rem 12rem;
   position: relative;
+  @media (max-width: 1440px) {
+    padding: 6rem;
+  }
 `
 
 export const TitleWrapper = styled.div`
