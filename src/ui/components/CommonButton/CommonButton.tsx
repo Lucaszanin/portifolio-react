@@ -1,8 +1,12 @@
 import * as S from './CommonButton.styles'
 import * as T from './CommonButton.types'
 
-export const CommonButton = ({ labelText }: T.CommonButtonProps) => (
-  <a href="https://wa.me/5519998343873" target="_blank" rel="noreferrer ">
-    <S.Button>{labelText}</S.Button>
-  </a>
+export const CommonButton = ({
+  labelText,
+  isActive,
+  handleClick,
+}: T.CommonButtonProps) => (
+  <S.Button onClick={handleClick} isActive={isActive}>
+    {labelText}
+  </S.Button>
 )

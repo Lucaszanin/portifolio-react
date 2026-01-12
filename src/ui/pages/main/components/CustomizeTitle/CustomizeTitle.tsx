@@ -12,7 +12,7 @@ export const CustomizeTitle = ({
   return (
     <S.TitleContainer align={align}>
       <S.Title
-        animation={animation}
+        animation={animation?.toString()}
         textcolor={textcolor}
         weight={weight}
         style={{ marginBottom: margin || 'unset' }}

@@ -48,7 +48,6 @@ export const RightContent = styled.div`
   right: 0;
   z-index: -1;
   top: 100px;
-  width: 20vw;
 `
 
 export const WorkTitle = styled.span`

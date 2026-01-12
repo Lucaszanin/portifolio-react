@@ -13,9 +13,9 @@ type TextColorProps = {
   animation?: boolean | string
 }
 
-export const Title = styled.h1<TextColorProps>`
+export const Title = styled.h2<TextColorProps>`
   text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);
-  width: 50vw;
+  width: fit-content;
   font-size: 3rem;
 
   font-weight: ${(props) => props.weight};

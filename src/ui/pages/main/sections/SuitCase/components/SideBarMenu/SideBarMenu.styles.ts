@@ -16,7 +16,7 @@ export const Navigation = styled.nav`
 `
 
 type MenuItemProps = {
-  isactive: boolean | string
+  isActive: boolean | string
 }
 
 export const MenuItem = styled.ul<MenuItemProps>`
@@ -25,9 +25,9 @@ export const MenuItem = styled.ul<MenuItemProps>`
   cursor: pointer;
   height: 3.125rem;
   background-color: ${(props) =>
-    props.isactive ? props.theme['red-400'] : props.theme['gray-800']};
+    props.isActive ? props.theme['red-400'] : props.theme['gray-800']};
   color: ${(props) =>
-    props.isactive ? props.theme['gray-100'] : props.theme['gray-500']};
+    props.isActive ? props.theme['gray-100'] : props.theme['gray-500']};
 `
 
 export const ItemText = styled.li`
