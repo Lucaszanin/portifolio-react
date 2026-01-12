@@ -29,3 +29,9 @@ export const ContentContainer = styled.div`
 export const NavBarWrapper = styled.div`
   padding: 44px 0;
 `
+export const HeaderContainer = styled.header``
+
+export const TitleWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`

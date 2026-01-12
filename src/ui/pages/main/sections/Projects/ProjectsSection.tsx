@@ -11,8 +11,8 @@ export const ProjectsSection = () => {
 
   return (
     <S.MainContainer>
-      <header>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <S.HeaderContainer>
+        <S.TitleWrapper>
           <S.HeaderWrapper>
             <CustomizeTitle
               text="O que eu já desenvolvi"
@@ -22,7 +22,7 @@ export const ProjectsSection = () => {
             />
             <img src={divider} alt="" />
           </S.HeaderWrapper>
-        </div>
+        </S.TitleWrapper>
         <S.NavBarWrapper>
           <S.SubtitleText>Pesquise por categorias:</S.SubtitleText>
           <Navbar
@@ -31,7 +31,7 @@ export const ProjectsSection = () => {
             onChangeCategoria={setActive}
           />
         </S.NavBarWrapper>
-      </header>
+      </S.HeaderContainer>
       <S.ContentContainer>
         <RenderContent
           content={C.RenderItems.filter(({ categories }) =>
