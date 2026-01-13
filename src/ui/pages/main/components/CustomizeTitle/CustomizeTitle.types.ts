@@ -5,4 +5,5 @@ export type CustomizeTitleProps = {
   textcolor: 'gray' | 'red'
   align: 'center' | 'start'
   weight: 'regular' | 'bold'
+  fontSize?: string
 }

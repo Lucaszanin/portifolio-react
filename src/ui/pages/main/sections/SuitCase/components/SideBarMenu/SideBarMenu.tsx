@@ -10,7 +10,7 @@ export const SideBarMenu = () => {
     <S.Container>
       <S.Navigation>
         {C.experiences?.map((exp) => (
-          <S.MenuItem key={exp.id} isActive={exp.id === activeId}>
+          <S.MenuItem key={exp.id} $isactive={exp.id === activeId}>
             <S.ItemText onClick={() => setActive(exp.id)}>
               {exp.menuLabel}
             </S.ItemText>

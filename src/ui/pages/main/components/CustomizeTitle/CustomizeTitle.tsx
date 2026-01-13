@@ -8,13 +8,15 @@ export const CustomizeTitle = ({
   weight,
   animation,
   margin,
+  fontSize,
 }: T.CustomizeTitleProps) => {
   return (
-    <S.TitleContainer align={align}>
+    <S.TitleContainer $align={align}>
       <S.Title
-        animation={animation?.toString()}
-        textcolor={textcolor}
-        weight={weight}
+        $animation={animation}
+        $textcolor={textcolor}
+        $weight={weight}
+        $fontsize={fontSize}
         style={{ marginBottom: margin || 'unset' }}
       >
         {text}

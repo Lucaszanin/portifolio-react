@@ -10,7 +10,7 @@ export const CustomizeText = ({
 
   return (
     <S.TextContainer>
-      <S.CustomizeTextStyles highlightColor={highlightColor}>
+      <S.CustomizeTextStyles $highlightColor={highlightColor}>
         {words?.map((word, index) => <Fragment key={index}>{word} </Fragment>)}
       </S.CustomizeTextStyles>
     </S.TextContainer>

@@ -8,17 +8,18 @@ const TEXT_PROPS = {
 } as const
 
 type TextColorProps = {
-  textcolor: keyof typeof TEXT_PROPS
-  weight: keyof typeof TEXT_PROPS
-  animation?: boolean | string
+  $textcolor: keyof typeof TEXT_PROPS
+  $weight: keyof typeof TEXT_PROPS
+  $animation?: boolean | string
+  $fontsize?: string
 }
 
 export const Title = styled.h2<TextColorProps>`
   text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);
   width: fit-content;
-  font-size: 3rem;
+  font-size: ${(props) => (props.$fontsize ? props.$fontsize : '3rem')};
 
-  font-weight: ${(props) => props.weight};
+  font-weight: ${(props) => props.$weight};
 
   @keyframes write {
     from {
@@ -41,14 +42,14 @@ export const Title = styled.h2<TextColorProps>`
   overflow: hidden;
   white-space: nowrap;
   ${(props) =>
-    props.animation &&
+    props.$animation &&
     `
     animation: write 4s steps(40) forwards infinite, blink 1s infinite;
     padding-right:0.313rem;
     border-right: 2px solid ${props.theme['gray-700']};
     `};
 
-  color: ${(props) => props.theme[TEXT_PROPS[props.textcolor]]};
+  color: ${(props) => props.theme[TEXT_PROPS[props.$textcolor]]};
 
   @media (max-width: 768px) {
     font-size: 2.5rem;
@@ -68,11 +69,11 @@ const ALIGN_CONTAINER = {
 } as const
 
 type TextContainerProps = {
-  align: keyof typeof ALIGN_CONTAINER
+  $align: keyof typeof ALIGN_CONTAINER
 }
 
 export const TitleContainer = styled.div<TextContainerProps>`
   display: flex;
-  justify-content: ${(props) => (props.align ? props.align : 'center')};
+  justify-content: ${(props) => (props.$align ? props.$align : 'center')};
   align-items: center;
 `

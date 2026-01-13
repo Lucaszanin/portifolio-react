@@ -6,7 +6,7 @@ export const CommonButton = ({
   isActive,
   handleClick,
 }: T.CommonButtonProps) => (
-  <S.Button onClick={handleClick} isActive={isActive}>
+  <S.Button onClick={handleClick} $isactive={isActive}>
     {labelText}
   </S.Button>
 )

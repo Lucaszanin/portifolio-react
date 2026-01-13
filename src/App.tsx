@@ -7,6 +7,7 @@ import { MainSection } from './ui/pages/main/sections/Main/MainSection'
 import { AboutSection } from './ui/pages/main/sections/About/AboutSection'
 import { SuitCaseSection } from './ui/pages/main/sections/SuitCase/SuitCaseSection'
 import { ProjectsSection } from './ui/pages/main/sections/Projects/ProjectsSection'
+import { ContactSection } from './ui/pages/main/sections/Contact/ContactSection'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <AboutSection />
       <SuitCaseSection />
       <ProjectsSection />
+      <ContactSection />
       <GlobalStyle />
     </ThemeProvider>
   )

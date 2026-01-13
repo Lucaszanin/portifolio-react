@@ -7,7 +7,7 @@ export const Button = styled.button`
   height: 4.313rem;
   border: 1px solid ${(props) => props.theme['red-400']};
   background: ${(props) => props.theme['gray-900']};
-  opacity: 0.8;
+  opacity: 0.9;
   transition: all 0.3s ease;
   color: ${(props) => props.theme['gray-300']};
 

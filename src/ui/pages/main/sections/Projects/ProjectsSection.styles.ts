@@ -16,7 +16,7 @@ export const MainContainer = styled.div`
 export const SubtitleText = styled.h3`
   color: ${(props) => props.theme['gray-300']};
   font-size: 1.25rem;
-  font-weight: 'regular';
+  font-weight: 400;
   margin-bottom: 12px;
 `
 

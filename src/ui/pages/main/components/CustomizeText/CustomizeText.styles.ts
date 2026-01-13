@@ -7,7 +7,7 @@ const TEXT_PROPS = {
 } as const
 
 type TextColorProps = {
-  highlightColor?: string
+  $highlightColor?: string
 }
 
 export const CustomizeTextStyles = styled.p<TextColorProps>`
@@ -15,11 +15,11 @@ export const CustomizeTextStyles = styled.p<TextColorProps>`
   max-width: 50vw;
   white-space: pre-wrap;
   ${(props) =>
-    props.highlightColor &&
+    props.$highlightColor &&
     `
       color: ${
         props.theme[
-          TEXT_PROPS[props.highlightColor as keyof typeof TEXT_PROPS]?.color
+          TEXT_PROPS[props.$highlightColor as keyof typeof TEXT_PROPS]?.color
         ]
       };
     `};
