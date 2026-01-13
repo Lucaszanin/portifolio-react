@@ -47,7 +47,7 @@ export const ImagWrapper = styled.div`
     position: absolute;
     top: 50%;
     left: 50%;
-    top: 120%;
+    top: 200%;
     z-index: -1;
 
     transform: translate(-50%, -50%) rotate(90deg);
@@ -55,6 +55,10 @@ export const ImagWrapper = styled.div`
     @media (max-width: 992px) {
       opacity: 0.7;
       width: 40vw;
+    }
+
+    @media (max-width: 567px) {
+      top: 140%;
     }
   }
 `
