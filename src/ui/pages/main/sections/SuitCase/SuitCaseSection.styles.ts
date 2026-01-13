@@ -21,7 +21,7 @@ export const Container = styled.div`
 export const TitleWrapper = styled.div`
   display: flex;
   width: fit-content;
-  h1 {
+  h2 {
     width: fit-content;
     display: flex;
     align-items: center;
@@ -57,6 +57,11 @@ export const RightContent = styled.div`
   right: 0;
   z-index: -1;
   top: 100px;
+  img {
+    @media (max-width: 1023px) {
+      opacity: 0.4;
+    }
+  }
 `
 
 export const WorkTitle = styled.span`

@@ -51,7 +51,7 @@ export const Title = styled.h2`
 `
 
 export const DescriptionText = styled.p`
-  color: ${(props) => props.theme['gray-500']};
+  color: ${(props) => props.theme['gray-100']};
   line-height: 1.5;
   font-size: 1rem;
   padding: 0.938rem 0 0.563rem 0;

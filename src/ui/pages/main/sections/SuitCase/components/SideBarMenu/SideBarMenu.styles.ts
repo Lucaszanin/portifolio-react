@@ -41,7 +41,6 @@ export const ItemText = styled.li`
 
   padding: 0.75rem 1.5rem;
   width: 20vw;
-  /* 1.625rem */
 `
 
 export const WorkTitle = styled.span`

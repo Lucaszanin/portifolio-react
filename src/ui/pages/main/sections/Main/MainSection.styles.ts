@@ -16,7 +16,7 @@ export const MainContainer = styled.div`
     text-align: center;
   }
   @media (max-width: 576px) {
-    padding: 6rem 1rem;
+    padding: 6rem 1rem 0 1rem;
   }
 `
 
@@ -40,8 +40,12 @@ export const ImagWrapper = styled.div`
 `
 
 export const TextWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+
   @media (max-width: 576px) {
     text-align: center;
+    align-items: center;
   }
 `
 
@@ -49,8 +53,9 @@ export const CableWrapper = styled.div`
   display: flex;
   align-items: baseline;
   margin-top: 17vh;
+  z-index: -1;
   flex-direction: column;
   height: 30vh;
   flex: 1;
-  gap: 27px;
+  gap: 1.6rem;
 `

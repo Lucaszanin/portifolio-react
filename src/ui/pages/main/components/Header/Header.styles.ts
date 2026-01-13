@@ -12,6 +12,11 @@ export const HeaderContainer = styled.header`
   @media (max-width: 768px) {
     padding: 0 1rem;
   }
+
+  @media (max-width: 568px) {
+    padding: 0;
+    justify-content: space-evenly;
+  }
 `
 
 export const LogoWrapper = styled.div`
