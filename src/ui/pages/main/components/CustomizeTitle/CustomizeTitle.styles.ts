@@ -56,6 +56,10 @@ export const Title = styled.h2<TextColorProps>`
   @media (max-width: 568px) {
     font-size: 2rem;
   }
+
+  @media (max-width: 475px) {
+    font-size: 1.8rem;
+  }
 `
 
 const ALIGN_CONTAINER = {

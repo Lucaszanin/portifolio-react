@@ -15,6 +15,7 @@ export const Container = styled.div`
   }
   @media (max-width: 568px) {
     padding: 2rem;
+    align-items: center;
   }
 `
 
@@ -33,6 +34,12 @@ export const TitleWrapper = styled.div`
       height: 50px;
       background: url('/arrow-heading-led.svg') no-repeat;
       background-size: cover;
+      @media (max-width: 568px) {
+        text-align: center;
+        margin-right: 0;
+        width: 40px;
+        height: 40px;
+      }
     }
   }
 `

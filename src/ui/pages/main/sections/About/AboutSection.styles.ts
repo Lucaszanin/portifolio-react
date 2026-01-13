@@ -83,10 +83,12 @@ export const TopWrapper = styled.div`
       height: 50px;
       background: url('/arrow-heading-led.svg') no-repeat;
       background-size: cover;
-    }
-    @media (max-width: 568px) {
-      text-align: center;
-      width: max-content;
+      @media (max-width: 568px) {
+        text-align: center;
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+      }
     }
   }
 `
