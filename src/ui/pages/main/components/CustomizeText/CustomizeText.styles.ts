@@ -23,6 +23,9 @@ export const CustomizeTextStyles = styled.p<TextColorProps>`
         ]
       };
     `};
+  @media (max-width: 576px) {
+    max-width: 80vw;
+  }
 `
 
 export const TextContainer = styled.div`

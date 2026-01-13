@@ -13,7 +13,7 @@ export const MainSection = () => {
     <S.MainContainer id="home">
       <S.LeftContent>
         <S.CableWrapper>
-          <img src={CableLed} alt="" style={{ height: '274px' }} />
+          <img src={CableLed} alt="" style={{ height: '11.5rem' }} />
           <img src={Socials} alt="" style={{ height: '11.5rem' }} />
           <img src={CableLed2} alt="" style={{ height: '11.5rem' }} />
         </S.CableWrapper>

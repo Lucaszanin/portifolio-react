@@ -10,7 +10,7 @@ export const ProjectsSection = () => {
   const [activeId, setActive] = useState('Internet')
 
   return (
-    <S.MainContainer>
+    <S.MainContainer id="projects">
       <S.HeaderContainer>
         <S.TitleWrapper>
           <S.HeaderWrapper>

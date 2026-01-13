@@ -53,6 +53,9 @@ export const Title = styled.h2<TextColorProps>`
   @media (max-width: 768px) {
     font-size: 2.5rem;
   }
+  @media (max-width: 568px) {
+    font-size: 2rem;
+  }
 `
 
 const ALIGN_CONTAINER = {
@@ -66,6 +69,6 @@ type TextContainerProps = {
 
 export const TitleContainer = styled.div<TextContainerProps>`
   display: flex;
-  justify-content: ${(props) => props.align};
+  justify-content: ${(props) => (props.align ? props.align : 'center')};
   align-items: center;
 `

@@ -20,4 +20,7 @@ export const CustomizeButton = styled.button`
     border: 2px solid ${(props) => props.theme['red-400']};
     text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);
   }
+  @media (max-width: 568px) {
+    padding: 0.75rem 0.6rem;
+  }
 `

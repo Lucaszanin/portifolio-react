@@ -11,7 +11,7 @@ export const AboutSection = () => {
       <S.LeftContent>
         <S.TopWrapper>
           <CustomizeTitle
-            text="Sobre mim"
+            text="Minha história"
             align="start"
             textcolor="red"
             weight="bold"

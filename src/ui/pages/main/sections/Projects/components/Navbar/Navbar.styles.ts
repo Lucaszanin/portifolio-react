@@ -6,7 +6,11 @@ export const NavBar = styled.nav`
 export const MenuList = styled.ul`
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 1rem;
+  flex-wrap: wrap;
+  @media (max-width: 568px) {
+    justify-content: center;
+  }
 `
 
 export const ListItem = styled.li`

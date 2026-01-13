@@ -9,6 +9,9 @@ export const HeaderContainer = styled.header`
   background: ${(props) => props.theme['gray-800']};
   position: fixed;
   z-index: 1;
+  @media (max-width: 768px) {
+    padding: 0 1rem;
+  }
 `
 
 export const LogoWrapper = styled.div`
@@ -28,6 +31,12 @@ export const MenuList = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  @media (max-width: 576px) {
+    gap: 1.5rem;
+  }
+  @media (max-width: 375px) {
+    gap: 1rem;
+  }
 `
 
 export const ListItemMenu = styled.li`
@@ -51,6 +60,7 @@ export const ButtonWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 0.5rem;
 `
 
 export const LinkMenu = styled.a`

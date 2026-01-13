@@ -9,10 +9,14 @@ export const MainContainer = styled.div`
     padding: 6rem;
   }
   @media (max-width: 768px) {
-    padding: 3rem;
+    padding: 6rem 3rem;
   }
   @media (max-width: 668px) {
-    padding: 2rem;
+    padding: 6rem 2rem;
+    text-align: center;
+  }
+  @media (max-width: 576px) {
+    padding: 6rem 1rem;
   }
 `
 
@@ -35,7 +39,11 @@ export const ImagWrapper = styled.div`
   }
 `
 
-export const TextWrapper = styled.div``
+export const TextWrapper = styled.div`
+  @media (max-width: 576px) {
+    text-align: center;
+  }
+`
 
 export const CableWrapper = styled.div`
   display: flex;

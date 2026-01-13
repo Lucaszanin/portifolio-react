@@ -8,6 +8,11 @@ export const Container = styled.div`
   max-width: 100%;
   justify-content: space-between;
   margin-top: 4.375rem;
+
+  @media (max-width: 568px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const Navigation = styled.nav`

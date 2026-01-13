@@ -11,6 +11,11 @@ export const MainContainer = styled.div`
   @media (max-width: 768px) {
     padding: 3rem;
   }
+  @media (max-width: 568px) {
+    text-align: center;
+    flex-direction: column-reverse;
+    padding: 2rem;
+  }
 `
 
 export const LeftContent = styled.div`
@@ -66,9 +71,7 @@ export const TopWrapper = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  width: 70%;
-  justify-content: space-between;
-  h1 {
+  h2 {
     width: fit-content;
     display: flex;
     align-items: center;
@@ -80,6 +83,10 @@ export const TopWrapper = styled.div`
       height: 50px;
       background: url('/arrow-heading-led.svg') no-repeat;
       background-size: cover;
+    }
+    @media (max-width: 568px) {
+      text-align: center;
+      width: max-content;
     }
   }
 `
@@ -109,4 +116,8 @@ export const TecnologiesWrapper = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 0.313rem;
   padding: 1.875rem 0;
+  white-space: nowrap;
+  @media (max-width: 568px) {
+    justify-content: space-between;
+  }
 `
