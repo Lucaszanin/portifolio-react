@@ -1,30 +1,77 @@
-# React + TypeScript + Vite
+# 🧑‍💻 Lucas Zanin — Portfólio Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao meu portfólio!  
+Sou desenvolvedor **Front-end**, com foco em **React, TypeScript e interfaces modernas**, sempre buscando escrever código limpo, escalável e de fácil manutenção.
 
-Currently, two official plugins are available:
+Este repositório reúne alguns dos projetos que desenvolvi ao longo da minha jornada, incluindo desafios técnicos, estudos práticos e aplicações completas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Sobre mim
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Sou um desenvolvedor apaixonado por tecnologia e por criar soluções que entreguem **boa experiência ao usuário** e **qualidade técnica**.
 
-- Configure the top-level `parserOptions` property like this:
+Atualmente, venho aprofundando meus conhecimentos em:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- Desenvolvimento Front-end com React
+- TypeScript e tipagem estática
+- Componentização e boas práticas
+- Performance e reutilização de código
+- Design responsivo e acessibilidade
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 🧩 Projetos
+
+### 📝 Todo List — Ignite Rocketseat
+
+Aplicação de gerenciamento de tarefas desenvolvida com **React + TypeScript**, focada em boas práticas, estados e componentização.
+
+**Tecnologias:**  
+React • TypeScript • Styled Components • Vite
+
+🔗 **Demo:** https://todo-list-gamma-teal.vercel.app  
+📁 **Repositório:** https://github.com/Lucaszanin/todoList-ignite
+
+---
+
+## 🛠️ Tecnologias & Ferramentas
+
+- React
+- TypeScript
+- JavaScript (ES6+)
+- Styled Components
+- CSS / HTML
+- Vite
+- Git & GitHub
+- Phosphor Icons
+
+---
+
+## 📈 O que você encontrará aqui
+
+- Projetos focados em **boas práticas**
+- Código organizado e tipado
+- Interfaces responsivas
+- Aplicações desenvolvidas como estudo e portfólio
+
+---
+
+## 📬 Contato
+
+Vamos conversar? 😄
+
+- 💼 LinkedIn: [Linkedin](https://www.linkedin.com/in/lucas-zanin-083167106/)
+- 📧 Email: _lukas.zanin@gmail.com_
+- 🌐 Portfólio Online: _[Portifólio](https://portifolio-zanin-seven.vercel.app/)_
+
+---
+
+## ⭐ Considerações finais
+
+Este portfólio está em constante evolução.  
+Novos projetos e melhorias serão adicionados conforme avanço nos estudos e experiências profissionais.
+
+Fique à vontade para explorar, clonar ou entrar em contato!
+
+---
