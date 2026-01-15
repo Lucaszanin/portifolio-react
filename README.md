@@ -21,20 +21,6 @@ Atualmente, venho aprofundando meus conhecimentos em:
 
 ---
 
-## 🧩 Projetos
-
-### 📝 Todo List — Ignite Rocketseat
-
-Aplicação de gerenciamento de tarefas desenvolvida com **React + TypeScript**, focada em boas práticas, estados e componentização.
-
-**Tecnologias:**  
-React • TypeScript • Styled Components • Vite
-
-🔗 **Demo:** https://todo-list-gamma-teal.vercel.app  
-📁 **Repositório:** https://github.com/Lucaszanin/todoList-ignite
-
----
-
 ## 🛠️ Tecnologias & Ferramentas
 
 - React
