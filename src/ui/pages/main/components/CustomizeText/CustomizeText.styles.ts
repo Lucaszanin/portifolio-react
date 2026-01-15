@@ -34,4 +34,8 @@ export const TextContainer = styled.div`
   align-items: center;
   margin: 0 0 0.75rem 0;
   width: 100%;
+
+  @media (max-width: 576px) {
+    justify-content: center;
+  }
 `

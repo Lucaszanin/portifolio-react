@@ -85,4 +85,8 @@ export const WrapperContent = styled.div`
 export const WrapperTitle = styled.div`
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 475px) {
+    text-align: center;
+  }
 `

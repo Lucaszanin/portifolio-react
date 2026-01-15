@@ -39,9 +39,6 @@ export const MenuList = styled.ul`
   @media (max-width: 576px) {
     gap: 1.5rem;
   }
-  @media (max-width: 375px) {
-    gap: 1rem;
-  }
 `
 
 export const ListItemMenu = styled.li`

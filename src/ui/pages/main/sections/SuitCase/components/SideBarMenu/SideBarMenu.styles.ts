@@ -11,13 +11,18 @@ export const Container = styled.div`
 
   @media (max-width: 568px) {
     flex-direction: column;
-    align-items: center;
+    width: 90vw;
   }
 `
 
 export const Navigation = styled.nav`
   display: block;
-  width: 100%;
+  width: 50vw;
+
+  @media (max-width: 568px) {
+    display: flex;
+    justify-content: space-around;
+  }
 `
 
 type MenuItemProps = {
@@ -41,6 +46,10 @@ export const ItemText = styled.li`
 
   padding: 0.75rem 1.5rem;
   width: 20vw;
+
+  @media (max-width: 568px) {
+    font-size: 1rem;
+  }
 `
 
 export const WorkTitle = styled.span`
