@@ -22,6 +22,10 @@ export const LeftContent = styled.div`
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+
+  @media (max-width: 568px) {
+    align-items: center;
+  }
 `
 
 export const ImagWrapper = styled.div`
