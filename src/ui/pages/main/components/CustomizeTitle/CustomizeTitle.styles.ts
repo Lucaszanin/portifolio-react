@@ -16,7 +16,6 @@ type TextColorProps = {
 
 export const Title = styled.h2<TextColorProps>`
   text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);
-  width: fit-content;
   font-size: ${(props) => (props.$fontsize ? props.$fontsize : '3rem')};
 
   font-weight: ${(props) => props.$weight};
@@ -26,7 +25,7 @@ export const Title = styled.h2<TextColorProps>`
       width: 0;
     }
     to {
-      width: 30%;
+      width: 100%;
     }
   }
   @keyframes blink {
