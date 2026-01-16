@@ -29,11 +29,11 @@ export const Header = () => {
               <SuitCaseIcon />
             </S.ListItemMenu>
           </S.LinkMenu>
-          <a href="#projects">
+          <S.LinkMenu href="#projects">
             <S.ListItemMenu>
               <SkillsIcon />
             </S.ListItemMenu>
-          </a>
+          </S.LinkMenu>
         </S.MenuList>
       </S.NavigationWrapper>
       <S.ButtonWrapper>

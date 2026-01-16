@@ -10,21 +10,13 @@ export const AboutSection = () => {
     <S.MainContainer id="about">
       <S.LeftContent>
         <S.TopWrapper>
-          <CustomizeTitle
-            text="Minha história"
-            align="start"
-            textcolor="red"
-            weight="bold"
-            margin="3rem"
-          />
+          <CustomizeTitle {...C.aboutTitleProps} />
         </S.TopWrapper>
         <CustomizeText text={C.firstParagraph} />
 
         <CustomizeText text={C.secondParagraph} />
 
-        <CustomizeText
-          text={'Algumas tecnologias que tenho trabalhado recentemente:'}
-        />
+        <CustomizeText text={C.tecnologiesText} />
         <S.TecnologiesWrapper>
           <S.TecnologiesText>Javascript (ES6++)</S.TecnologiesText>
           <S.TecnologiesText>React</S.TecnologiesText>
@@ -40,7 +32,10 @@ export const AboutSection = () => {
         <S.ImagWrapper1>
           <S.ImagWrapper>
             <S.ImagWrapper2>
-              <img src={PhotoImage} style={{ borderRadius: '50%' }} alt="" />
+              <S.ProfileImage
+                src={PhotoImage}
+                alt="Uma foto minha com uma camisa azul"
+              />
             </S.ImagWrapper2>
           </S.ImagWrapper>
         </S.ImagWrapper1>

@@ -13,9 +13,9 @@ export const MainSection = () => {
     <S.MainContainer id="home">
       <S.LeftContent>
         <S.CableWrapper>
-          <img src={CableLed} alt="" style={{ height: '11.5rem' }} />
-          <img src={Socials} alt="" style={{ height: '11.5rem' }} />
-          <img src={CableLed2} alt="" style={{ height: '11.5rem' }} />
+          <S.StyledImage src={CableLed} alt="" />
+          <S.StyledImage src={Socials} alt="" />
+          <S.StyledImage src={CableLed2} alt="" />
         </S.CableWrapper>
 
         <S.TextWrapper>
@@ -30,7 +30,7 @@ export const MainSection = () => {
         </S.TextWrapper>
       </S.LeftContent>
       <S.ImagWrapper>
-        <img
+        <S.BackgroundImage
           src={CircleBackground}
           alt="Imagem com dois circulos negros, com contorno vermelho"
         />

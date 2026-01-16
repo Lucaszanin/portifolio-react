@@ -68,3 +68,7 @@ export const CableWrapper = styled.div`
     display: none;
   }
 `
+export const StyledImage = styled.img`
+  height: 11.5rem;
+`
+export const BackgroundImage = styled.img``

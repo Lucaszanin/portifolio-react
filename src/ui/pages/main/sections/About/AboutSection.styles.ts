@@ -127,3 +127,6 @@ export const TecnologiesWrapper = styled.div`
     justify-content: space-between;
   }
 `
+export const ProfileImage = styled.img`
+  border-radius: 50%;
+`
