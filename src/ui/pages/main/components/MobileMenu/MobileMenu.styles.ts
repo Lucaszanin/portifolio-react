@@ -18,6 +18,11 @@ export const MenuButton = styled.button`
   background-color: transparent;
   cursor: pointer;
   position: relative;
+
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.2);
+  }
 `
 
 export const ContainerMenu = styled.div<ContentMenuProps>`
@@ -55,6 +60,10 @@ export const CloseButton = styled.button`
   height: 20px;
   background-color: transparent;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.3);
+  }
 `
 export const NavigationMenu = styled.div`
   display: flex;
@@ -70,4 +79,8 @@ export const ItemMenu = styled.li`
   font-size: 1.25rem;
 
   padding: 0.75rem;
+  transition: all 0.3s ease;
+  &:hover {
+    color: ${(props) => props.theme['red-400']};
+  }
 `
