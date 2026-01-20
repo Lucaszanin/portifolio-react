@@ -5,7 +5,7 @@ import * as S from './ContactSection.styles'
 import * as C from './ContactSection.constants'
 
 export const ContactSection = () => (
-  <S.MainContainer>
+  <S.MainContainer id="contact">
     <S.WrapperContent>
       <S.TextWrapper>
         <CustomizeTitle {...C.titleProps} />

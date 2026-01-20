@@ -3,6 +3,7 @@ import { HomeIcon } from '../../assets/HomeIcon'
 import { SkillsIcon } from '../../assets/SkiilsIcon'
 import { SuitCaseIcon } from '../../assets/SuitCaseIcon'
 import { CustomizeMiniButton } from '../CustomizeMiniButton/CustomizeMiniButton'
+import { MobileMenu } from '../MobileMenu/MobileMenu'
 import { SVG } from '../SVG/Index'
 import * as S from './Header.styles'
 
@@ -39,6 +40,7 @@ export const Header = () => {
       <S.ButtonWrapper>
         <CustomizeMiniButton text="Resumo" />
       </S.ButtonWrapper>
+      <MobileMenu />
     </S.HeaderContainer>
   )
 }

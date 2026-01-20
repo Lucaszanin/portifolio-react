@@ -17,6 +17,10 @@ export const HeaderContainer = styled.header`
     padding: 0;
     justify-content: space-evenly;
   }
+  @media (max-width: 475px) {
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
 `
 
 export const LogoWrapper = styled.div`
@@ -29,6 +33,10 @@ export const NavigationWrapper = styled.nav`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 475px) {
+    display: none;
+  }
 `
 
 export const MenuList = styled.ul`
@@ -63,6 +71,9 @@ export const ButtonWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-left: 0.5rem;
+  @media (max-width: 475px) {
+    display: none;
+  }
 `
 
 export const LinkMenu = styled.a`
