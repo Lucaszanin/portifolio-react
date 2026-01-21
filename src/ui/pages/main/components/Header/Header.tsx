@@ -37,7 +37,7 @@ export const Header = () => {
           </S.LinkMenu>
         </S.MenuList>
       </S.NavigationWrapper>
-      <S.ButtonWrapper>
+      <S.ButtonWrapper href="#contact">
         <CustomizeMiniButton text="Resumo" />
       </S.ButtonWrapper>
       <MobileMenu />

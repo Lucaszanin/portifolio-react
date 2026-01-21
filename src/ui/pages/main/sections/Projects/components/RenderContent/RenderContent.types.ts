@@ -1,4 +1,4 @@
-import { CardProps } from '../ProjectCard/ProjectCard.types'
+import type { CardProps } from '../ProjectCard/ProjectCard.types'
 
 export type RenderContentProps = {
   content: CardProps[]

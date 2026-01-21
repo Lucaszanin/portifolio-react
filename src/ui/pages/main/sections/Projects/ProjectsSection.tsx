@@ -34,8 +34,8 @@ export const ProjectsSection = () => {
       </S.HeaderContainer>
       <S.ContentContainer>
         <RenderContent
-          content={C.RenderItems.filter(({ categories }) =>
-            categories.includes(activeId),
+          content={C.RenderItems?.filter(
+            ({ categories }) => categories?.includes(activeId),
           )}
         />
       </S.ContentContainer>

@@ -1,5 +1,5 @@
 import { ProjectCard } from '../ProjectCard/ProjectCard'
-import * as T from './RenderContent.types'
+import type * as T from './RenderContent.types'
 import * as S from './RenderContent.styles'
 
 export const RenderContent = ({ content }: T.RenderContentProps) => (

@@ -1,4 +1,4 @@
-import { CardProps } from './components/ProjectCard/ProjectCard.types'
+import type { CardProps } from './components/ProjectCard/ProjectCard.types'
 
 export const NavItems = [
   { id: 'Internet', label: 'Todos' },

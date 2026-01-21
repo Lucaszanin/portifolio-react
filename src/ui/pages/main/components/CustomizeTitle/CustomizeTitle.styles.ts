@@ -1,18 +1,5 @@
 import styled from 'styled-components'
-
-const TEXT_PROPS = {
-  gray: 'gray-100',
-  red: 'red-400',
-  regular: '400',
-  bold: '700',
-} as const
-
-type TextColorProps = {
-  $textcolor: keyof typeof TEXT_PROPS
-  $weight: keyof typeof TEXT_PROPS
-  $animation?: boolean | string
-  $fontsize?: string
-}
+import { TEXT_PROPS, type TextColorProps } from './CustomizeTitle.types'
 
 export const Title = styled.h2<TextColorProps>`
   text-shadow: 0px 4px 40px rgba(202, 62, 71, 0.5);

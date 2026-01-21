@@ -28,6 +28,9 @@ export const Divider = styled.div`
   margin-top: 5px;
   background: ${(props) => props.theme['gray-800']};
 `
+export const WrapperContent = styled.div`
+  width: fit-content;
+`
 
 export const ImageWrapper = styled.div`
   padding-bottom: 1rem;

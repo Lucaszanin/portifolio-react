@@ -1,14 +1,11 @@
 import styled from 'styled-components'
+import type { TextColorProps } from './CustomizeText.types'
 
 const TEXT_PROPS = {
   true: {
     color: 'red-400',
   },
 } as const
-
-type TextColorProps = {
-  $highlightColor?: string
-}
 
 export const CustomizeTextStyles = styled.p<TextColorProps>`
   color: ${(props) => props.theme['gray-400']};

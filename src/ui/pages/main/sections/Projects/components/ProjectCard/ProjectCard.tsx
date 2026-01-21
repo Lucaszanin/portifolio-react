@@ -1,5 +1,5 @@
 import * as S from './ProjectCard.styles'
-import * as T from './ProjectCard.types'
+import type * as T from './ProjectCard.types'
 
 export const ProjectCard = ({ cardContent }: T.ProjectCardProps) => {
   return (
@@ -12,11 +12,11 @@ export const ProjectCard = ({ cardContent }: T.ProjectCardProps) => {
         <S.ImageWrapper>
           <img src={cardContent.image} alt="" />
         </S.ImageWrapper>
-        <div style={{ width: 'fit-content' }}>
+        <S.WrapperContent>
           <S.Title>{cardContent.title}</S.Title>
           <S.Divider />
           <S.DescriptionText>{cardContent.description}</S.DescriptionText>
-        </div>
+        </S.WrapperContent>
         <S.TecnologiesWrapper>
           {cardContent?.tecnologies.map((text) => (
             <S.TecnologiesText key={text}>{text}</S.TecnologiesText>

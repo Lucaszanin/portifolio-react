@@ -1,8 +1,5 @@
 import styled from 'styled-components'
-
-interface ContentMenuProps {
-  $isVisible: boolean | string
-}
+import { ContentMenuProps } from './MobileMenu.types'
 
 export const WrapperMenu = styled.div`
   display: none;
@@ -72,6 +69,8 @@ export const NavigationMenu = styled.div`
   margin-top: 1rem;
 `
 
+export const MenuList = styled.ul``
+
 export const RedirectLinkItem = styled.a``
 
 export const ItemMenu = styled.li`
@@ -84,3 +83,4 @@ export const ItemMenu = styled.li`
     color: ${(props) => props.theme['red-400']};
   }
 `
+export const IconImage = styled.img``

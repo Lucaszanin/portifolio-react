@@ -66,7 +66,7 @@ export const ListItemMenu = styled.li`
   }
 `
 
-export const ButtonWrapper = styled.div`
+export const ButtonWrapper = styled.a`
   display: flex;
   align-items: center;
   justify-content: center;

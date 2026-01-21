@@ -72,3 +72,22 @@ export const StyledImage = styled.img`
   height: 11.5rem;
 `
 export const BackgroundImage = styled.img``
+
+export const SocialIconsContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`
+
+export const SocialIconWrapper = styled.div`
+  width: 34px;
+  height: 34px;
+`
+export const SocialLink = styled.a`
+  img {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
+`
