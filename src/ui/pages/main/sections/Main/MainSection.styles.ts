@@ -80,14 +80,24 @@ export const SocialIconsContainer = styled.div`
 `
 
 export const SocialIconWrapper = styled.div`
-  width: 34px;
-  height: 34px;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    box-shadow: 0px 0px 40px 0px rgba(202, 62, 71, 0.7);
+  }
+
+  @media (max-width: 475px) {
+    width: 40px;
+    height: 40px;
+  }
 `
 export const SocialLink = styled.a`
   img {
     transition: all 0.3s ease-in-out;
     &:hover {
-      transform: scale(1.4);
+      transform: scale(1.2);
     }
   }
 `
