@@ -24,7 +24,7 @@ export const experiences = [
     menuLabel: 'M3 Desenvolvimento',
     title: 'Desenvolvedor Front End',
     company: 'M3 Desenvolvimento',
-    period: 'setembro 2023 até abril 2023',
+    period: 'setembro 2022 até abril 2023',
     paragraphs: [paragrapTwoM3, paragrapThreeM3],
   },
 ]
