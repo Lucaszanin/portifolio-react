@@ -54,6 +54,10 @@ export const TextWrapper = styled.div`
   }
 `
 
+export const TitleWrapper = styled.div`
+  padding-bottom: .5rem;
+`
+
 export const CableWrapper = styled.div`
   display: flex;
   align-items: baseline;

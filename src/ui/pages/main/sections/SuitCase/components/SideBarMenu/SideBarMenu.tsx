@@ -9,13 +9,16 @@ export const SideBarMenu = () => {
   return (
     <S.Container>
       <S.Navigation>
-        {C.experiences?.map((exp) => (
-          <S.MenuItem key={exp.id} $isactive={exp.id === activeId}>
-            <S.ItemText onClick={() => setActive(exp.id)}>
-              {exp.menuLabel}
-            </S.ItemText>
-          </S.MenuItem>
-        ))}
+        {C.experiences?.map((exp) => {
+          console.log('>>>>',exp.menuLabel)
+          return (
+            <S.MenuItem key={exp.id} $isactive={exp.id === activeId}>
+              <S.ItemText onClick={() => setActive(exp.id)}>
+                {exp.menuLabel}
+              </S.ItemText>
+            </S.MenuItem>
+          )
+        })}
       </S.Navigation>
       <SideBarContent content={activeExperience} />
     </S.Container>

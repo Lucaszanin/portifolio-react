@@ -1,13 +1,13 @@
 import type { CustomizeTitleProps } from '../../components/CustomizeTitle/CustomizeTitle.types'
 
-export const firstParagraph = `Olá! Sou Lucas Zanin, Desenvolvedor Frontend Pleno, com sólida experiência no desenvolvimento de aplicações web modernas, performáticas e escaláveis.
-Atuei no Grupo Boticário em um projeto robusto e de alta criticidade, responsável pelo abastecimento de todas as franquias do grupo, contribuindo diretamente para a sustentação e evolução de uma solução de grande escala.`
+export const firstParagraph = `Sou Desenvolvedor Front-End com 4 anos de experiência na construção de aplicações web modernas, performáticas e escaláveis, com forte atuação em React.js e TypeScript.`
 
-export const secondParagraph = `Também atuei na M3, desenvolvendo projetos de e-commerce na plataforma VTEX, com atuação em projetos internacionais para Colômbia e Argentina, trabalhando em ambientes multiculturais e alinhados a padrões globais de qualidade. Essas experiências fortaleceram minha comunicação profissional, incluindo espanhol em nível intermediário.
+export const secondParagraph = `Ao longo da minha trajetória, atuei em projetos de grande escala — como um sistema crítico de abastecimento utilizado nacionalmente pelo Grupo Boticário — e em projetos internacionais de e-commerce na plataforma VTEX, para os mercados da Colômbia e Argentina, o que fortaleceu minha comunicação profissional, incluindo espanhol em nível intermediário.
 `
-export const thirtParagraph = `Tenho vivência em todo o ciclo de desenvolvimento front-end, integração com APIs, componentização, responsividade, performance e boas práticas, sempre com foco em código limpo, escalável e entrega de valor ao negócio.
-Sou movido por desafios, responsabilidade técnica e aprendizado contínuo.
+export const thirtParagraph = `Tenho experiência prática em Micro Frontends, Design Systems, componentização e migração de arquiteturas legadas, sempre com foco em código limpo, reutilização e entrega de valor real ao negócio.
 `
+export const fourParagraph = `Sou movido por desafios técnicos, responsabilidade e aprendizado contínuo.`
+
 export const commonTitleProps: Omit<CustomizeTitleProps, 'text'> = {
   align: 'start',
   textcolor: 'gray',
@@ -22,6 +22,18 @@ export const firstTitleProps: CustomizeTitleProps = {
 export const secondTitleprops: CustomizeTitleProps = {
   text: 'Eu sou',
   ...commonTitleProps,
+}
+
+export const thirthTitleprops: CustomizeTitleProps = {
+  text: 'Desenvolvedor Front-End Pleno',
+  ...commonTitleProps,
+  fontSize:'2.5rem',
+}
+
+export const fourTitleprops: CustomizeTitleProps = {
+  text: 'Transformo ideias em interfaces escaláveis com React, TypeScript, Micro Frontends e Design Systems.',
+  ...commonTitleProps,
+  fontSize:'1.5rem',
 }
 
 export const principalTitleProps: CustomizeTitleProps = {

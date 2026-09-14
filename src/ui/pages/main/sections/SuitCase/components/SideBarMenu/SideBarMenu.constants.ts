@@ -45,4 +45,15 @@ export const experiences = [
       { id: 'p5', text: paragrapThreeM3 },
     ],
   },
+    {
+    id: 'shipay',
+    menuLabel: 'Shipay Tecnologia',
+    title: 'Desenvolvedor Front End',
+    company: 'Shipay Tecnologia',
+    period: 'abril 2026 até setembro 2026',
+    paragraphs: [
+      { id: 'p4', text: paragrapTwoM3 },
+      { id: 'p5', text: paragrapThreeM3 },
+    ],
+  },
 ]

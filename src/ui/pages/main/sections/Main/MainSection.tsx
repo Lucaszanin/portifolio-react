@@ -21,13 +21,18 @@ export const MainSection = () => {
         </S.CableWrapper>
 
         <S.TextWrapper>
-          <CustomizeTitle {...C.firstTitleProps} />
-          <CustomizeTitle {...C.secondTitleprops} />
-          <CustomizeTitle {...C.principalTitleProps} />
+          <S.TitleWrapper>
+            <CustomizeTitle {...C.firstTitleProps} />
+            <CustomizeTitle {...C.secondTitleprops} />
+            <CustomizeTitle {...C.principalTitleProps} />
+            <CustomizeTitle {...C.thirthTitleprops} />
+            <CustomizeTitle {...C.fourTitleprops} />
+          </S.TitleWrapper>
 
           <CustomizeText text={C.firstParagraph} />
           <CustomizeText text={C.secondParagraph} />
           <CustomizeText text={C.thirtParagraph} />
+          <CustomizeText text={C.fourParagraph} />
           <S.SocialIconsContainer>
             <S.SocialIconWrapper>
               <S.SocialLink

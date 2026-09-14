@@ -27,4 +27,15 @@ export const experiences = [
     period: 'setembro 2022 até abril 2023',
     paragraphs: [paragrapTwoM3, paragrapThreeM3],
   },
+    {
+      id: 'shipay',
+      menuLabel: 'Shipay Tecnologia',
+      title: 'Desenvolvedor Front End',
+      company: 'Shipay Tecnologia',
+      period: 'abril 2026 até setembro 2026',
+      paragraphs: [
+        { id: 'p4', text: paragrapTwoM3 },
+        { id: 'p5', text: paragrapThreeM3 },
+      ],
+    },
 ]
