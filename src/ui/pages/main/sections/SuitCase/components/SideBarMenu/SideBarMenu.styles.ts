@@ -11,17 +11,21 @@ export const Container = styled.div`
 
   @media (max-width: 568px) {
     flex-direction: column;
-    width: 90vw;
+  
   }
 `
 
 export const Navigation = styled.nav`
-  display: block;
+  display: flex;
+  flex-direction:column;
+  gap:.5rem;
   width: 50vw;
 
   @media (max-width: 568px) {
     display: flex;
-    justify-content: space-around;
+    flex-direction:row;
+    width: 55vw;
+    justify-content: space-between;
   }
 `
 

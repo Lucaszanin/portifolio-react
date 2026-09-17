@@ -45,7 +45,7 @@ export const Title = styled.h2<TextColorProps>`
   }
 
   @media (max-width: 475px) {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 `
 

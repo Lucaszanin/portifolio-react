@@ -27,13 +27,6 @@ export const secondTitleprops: CustomizeTitleProps = {
 export const thirthTitleprops: CustomizeTitleProps = {
   text: 'Desenvolvedor Front-End Pleno',
   ...commonTitleProps,
-  fontSize:'2.5rem',
-}
-
-export const fourTitleprops: CustomizeTitleProps = {
-  text: 'Transformo ideias em interfaces escaláveis com React, TypeScript, Micro Frontends e Design Systems.',
-  ...commonTitleProps,
-  fontSize:'1.5rem',
 }
 
 export const principalTitleProps: CustomizeTitleProps = {

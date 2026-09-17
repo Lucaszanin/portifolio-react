@@ -21,6 +21,12 @@ export const paragrapThreeM3 = `Os principais desafios envolveram a rápida adap
 
 Também adquiri conhecimentos em GraphQL, aplicados na integração e consumo de dados, além de experiência com o painel administrativo do VTEX IO, ampliando minha visão sobre e-commerce, arquitetura da plataforma e gestão de lojas.`
 
+export const paragraphOneShipay = `Na Shipay, atuei no desenvolvimento e evolução do Painel administrativo da empresa, participando ativamente do processo de migração de uma arquitetura monolítica para Micro Frontends (MFE). Esse processo exigiu planejamento cuidadoso para garantir a continuidade das funcionalidades existentes enquanto novas partes da aplicação eram desacopladas e modularizadas, contribuindo para maior escalabilidade e autonomia entre os times.`
+
+export const paragraphTwoShipay = `Também fui responsável pela construção de um novo painel de acesso a clientes, atuando desde as definições iniciais de arquitetura até a implementação das funcionalidades, sempre com foco em performance, usabilidade e consistência visual.
+
+Um dos principais desafios do período foi a criação da arquitetura inicial do Design System da empresa, o que envolveu decisões técnicas relevantes sobre padronização de componentes, reutilização de código e definição de boas práticas para os times de frontend. Esse trabalho ampliou minha visão sobre arquitetura de sistemas front-end, escalabilidade de produtos e o impacto de um Design System bem estruturado na velocidade e qualidade de entrega de um time.`
+
 export const experiences = [
   {
     id: 'boticario',
@@ -36,24 +42,24 @@ export const experiences = [
   },
   {
     id: 'm3',
-    menuLabel: 'M3 Desenvolvimento',
+    menuLabel: 'M3 E-Commerce',
     title: 'Desenvolvedor Front End',
-    company: 'M3 Desenvolvimento',
+    company: 'M3 E-Commerce',
     period: 'setembro 2023 até abril 2023',
     paragraphs: [
       { id: 'p4', text: paragrapTwoM3 },
       { id: 'p5', text: paragrapThreeM3 },
     ],
   },
-    {
+  {
     id: 'shipay',
     menuLabel: 'Shipay Tecnologia',
     title: 'Desenvolvedor Front End',
     company: 'Shipay Tecnologia',
     period: 'abril 2026 até setembro 2026',
     paragraphs: [
-      { id: 'p4', text: paragrapTwoM3 },
-      { id: 'p5', text: paragrapThreeM3 },
+      { id: 'p6', text: paragraphOneShipay },
+      { id: 'p7', text: paragraphTwoShipay },
     ],
   },
 ]

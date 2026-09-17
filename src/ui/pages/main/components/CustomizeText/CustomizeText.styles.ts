@@ -10,7 +10,6 @@ const TEXT_PROPS = {
 export const CustomizeTextStyles = styled.p<TextColorProps>`
   color: ${(props) => props.theme['gray-400']};
   max-width: 50vw;
-  white-space: pre-wrap;
   ${(props) =>
     props.$highlightColor &&
     `

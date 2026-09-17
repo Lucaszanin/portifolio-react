@@ -26,7 +26,7 @@ export const MainSection = () => {
             <CustomizeTitle {...C.secondTitleprops} />
             <CustomizeTitle {...C.principalTitleProps} />
             <CustomizeTitle {...C.thirthTitleprops} />
-            <CustomizeTitle {...C.fourTitleprops} />
+       
           </S.TitleWrapper>
 
           <CustomizeText text={C.firstParagraph} />
