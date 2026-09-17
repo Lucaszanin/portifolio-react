@@ -40,12 +40,15 @@ export const Title = styled.h2<TextColorProps>`
   @media (max-width: 768px) {
     font-size: 2.5rem;
   }
-  @media (max-width: 568px) {
+
+  @media (max-width: 475px) {
     font-size: 2rem;
   }
 
-  @media (max-width: 475px) {
-    font-size: 1.5rem;
+  @media (max-width: 768px) {
+    animation: none;
+    border-right: none;
+    white-space: normal;
   }
 `
 

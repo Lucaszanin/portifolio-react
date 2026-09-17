@@ -55,7 +55,13 @@ export const TextWrapper = styled.div`
 `
 
 export const TitleWrapper = styled.div`
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 `
 
 export const CableWrapper = styled.div`
