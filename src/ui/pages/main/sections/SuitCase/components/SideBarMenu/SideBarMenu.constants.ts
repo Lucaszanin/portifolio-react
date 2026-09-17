@@ -28,6 +28,17 @@ export const paragraphTwoShipay = `Também fui responsável pela construção de
 Um dos principais desafios do período foi a criação da arquitetura inicial do Design System da empresa, o que envolveu decisões técnicas relevantes sobre padronização de componentes, reutilização de código e definição de boas práticas para os times de frontend. Esse trabalho ampliou minha visão sobre arquitetura de sistemas front-end, escalabilidade de produtos e o impacto de um Design System bem estruturado na velocidade e qualidade de entrega de um time.`
 
 export const experiences = [
+    {
+    id: 'shipay',
+    menuLabel: 'Shipay Tecnologia',
+    title: 'Desenvolvedor Front End',
+    company: 'Shipay Tecnologia',
+    period: 'abril 2026 até setembro 2026',
+    paragraphs: [
+      { id: 'p6', text: paragraphOneShipay },
+      { id: 'p7', text: paragraphTwoShipay },
+    ],
+  },
   {
     id: 'boticario',
     menuLabel: 'Grupo Boticário',
@@ -51,15 +62,5 @@ export const experiences = [
       { id: 'p5', text: paragrapThreeM3 },
     ],
   },
-  {
-    id: 'shipay',
-    menuLabel: 'Shipay Tecnologia',
-    title: 'Desenvolvedor Front End',
-    company: 'Shipay Tecnologia',
-    period: 'abril 2026 até setembro 2026',
-    paragraphs: [
-      { id: 'p6', text: paragraphOneShipay },
-      { id: 'p7', text: paragraphTwoShipay },
-    ],
-  },
+
 ]
